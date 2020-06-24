@@ -53,19 +53,19 @@
     {% if post.code or post.bibtex or post.data or post.paperurl %}
     <div>
       {% if post.paperurl %}
-      <b>[ <a href="{{post.paperurl}}">paper</a> ]</b>
+      [ <a href="{{post.paperurl}}">paper</a> ]
       {% endif %}
 
       {% if post.code %}
-      <b>[ <a href="{{post.code}}">code</a> ]</b>
+      [ <a href="{{post.code}}">code</a> ]
       {% endif %}
 
       {% if post.bibtex %}
-      <b>[ <a href="{{post.bibtex}}">bibtex</a> ]</b>
+      [ <a href="{{post.bibtex}}">bibtex</a> ]
       {% endif %}
 
       {% if post.data %}
-      <b>[ <a href="{{post.data}}">data</a> ]</b>
+      [ <a href="{{post.data}}">data</a> ]
       {% endif %}
     </div>
     {% endif%}
