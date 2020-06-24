@@ -7,6 +7,4 @@ venue: 'ICLR'
 paperurl: 'https://openreview.net/forum?id=r1lOgyrKDS'
 citation: 'Xinjie Fan, <b>Yizhe Zhang</b>, Zhendong Wang, Mingyuan Zhou'
 ---
-[Download paper here](https://openreview.net/forum?id=r1lOgyrKDS)
-
 Recommended citation: Xinjie Fan, *Yizhe Zhang*, Zhendong Wang, Mingyuan Zhou

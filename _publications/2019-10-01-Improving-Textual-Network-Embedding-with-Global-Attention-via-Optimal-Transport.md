@@ -7,6 +7,4 @@ venue: 'ACL'
 paperurl: 'https://arxiv.org/abs/1906.01840'
 citation: 'Liqun Chen, Guoyin Wang, Chenyang Tao, Dinghan Shen, <b>Yizhe Zhang</b> and Lawrence Carin'
 ---
-[Download paper here](https://arxiv.org/abs/1906.01840)
-
 Recommended citation: Liqun Chen, Guoyin Wang, Chenyang Tao, Dinghan Shen, *Yizhe Zhang* and Lawrence Carin

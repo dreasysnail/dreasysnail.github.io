@@ -7,6 +7,4 @@ venue: 'Workshop on Adversarial Training, NIPS'
 paperurl: './pdf/AAAI_2016_zhang.pdf'
 citation: '<b>Yizhe Zhang</b>, Zhe Gan, Lawrence Carin'
 ---
-[Download paper here](./pdf/AAAI_2016_zhang.pdf)
-
 Recommended citation: *Yizhe Zhang*, Zhe Gan, Lawrence Carin

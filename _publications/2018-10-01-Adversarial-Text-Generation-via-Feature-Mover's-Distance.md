@@ -7,6 +7,4 @@ venue: 'NIPS'
 paperurl: 'https://arxiv.org/abs/1809.06297'
 citation: 'Liqun Chen, Shuyang Dai, Chenyang Tao, Dinghan Shen, Zhe Gan, Haichao Zhang, <b>Yizhe Zhang</b>, Lawrence Carin'
 ---
-[Download paper here](https://arxiv.org/abs/1809.06297)
-
 Recommended citation: Liqun Chen, Shuyang Dai, Chenyang Tao, Dinghan Shen, Zhe Gan, Haichao Zhang, *Yizhe Zhang*, Lawrence Carin

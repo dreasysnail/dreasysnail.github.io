@@ -8,6 +8,4 @@ paperurl: 'http://papers.nips.cc/paper/6147-towards-unifying-hamiltonian-monte-c
 citation: '<b>Yizhe Zhang</b>, Xiangyu Wang, Changyou Chen, Lawrence Carin'
 code: 'https://github.com/dreasysnail/MGHMC'
 ---
-[Download paper here](http://papers.nips.cc/paper/6147-towards-unifying-hamiltonian-monte-carlo-and-slice-sampling)
-
 Recommended citation: *Yizhe Zhang*, Xiangyu Wang, Changyou Chen, Lawrence Carin

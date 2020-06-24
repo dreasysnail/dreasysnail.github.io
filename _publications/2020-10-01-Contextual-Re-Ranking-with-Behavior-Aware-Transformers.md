@@ -7,6 +7,4 @@ venue: 'SIGIR'
 paperurl: 'http://ciir-publications.cs.umass.edu/getpdf.php?id=1383'
 citation: 'Chen Qu, Chenyan Xiong, <b>Yizhe Zhang</b>, Corby Rosset, W. Bruce Croft and Paul Bennett'
 ---
-[Download paper here](http://ciir-publications.cs.umass.edu/getpdf.php?id=1383)
-
 Recommended citation: Chen Qu, Chenyan Xiong, *Yizhe Zhang*, Corby Rosset, W. Bruce Croft and Paul Bennett
