@@ -8,4 +8,7 @@ paperurl: 'http://cbb.sjtu.edu.cn/~ccwei/pub/software/MOST/MOST.php'
 citation: '<b>Yizhe Zhang</b>, Yupeng He and Chaochun Wei'
 code: 'http://cbb.sjtu.edu.cn/~ccwei/pub/software/MOST/MOST+_v1.5_sourceonly.tar.gz'
 ---
+
+[Download paper here](http://cbb.sjtu.edu.cn/~ccwei/pub/software/MOST/MOST.php)
+
 Recommended citation: *Yizhe Zhang*, Yupeng He and Chaochun Wei

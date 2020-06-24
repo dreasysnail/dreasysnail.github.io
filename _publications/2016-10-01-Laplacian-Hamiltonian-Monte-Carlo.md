@@ -7,4 +7,7 @@ venue: 'ECML'
 paperurl: 'https://dl.acm.org/doi/10.1007/978-3-319-46128-1_7'
 citation: '<b>Yizhe Zhang</b>, Changyou Chen, Ricardo Henao, Lawrence Carin'
 ---
+
+[Download paper here](https://dl.acm.org/doi/10.1007/978-3-319-46128-1_7)
+
 Recommended citation: *Yizhe Zhang*, Changyou Chen, Ricardo Henao, Lawrence Carin

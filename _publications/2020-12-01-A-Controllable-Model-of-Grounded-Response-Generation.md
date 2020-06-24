@@ -7,4 +7,7 @@ venue: 'ArXiv preprint'
 paperurl: 'https://arxiv.org/abs/2005.00613'
 citation: 'Zeqiu Wu, Michel Galley, Chris Brockett, <b>Yizhe Zhang</b>, Xiang Gao, Chris Quirk, Rik Koncel-Kedziorski, Jianfeng Gao, Hannaneh Hajishirzi, Mari Ostendorf, Bill Dolan'
 ---
+
+[Download paper here](https://arxiv.org/abs/2005.00613)
+
 Recommended citation: Zeqiu Wu, Michel Galley, Chris Brockett, *Yizhe Zhang*, Xiang Gao, Chris Quirk, Rik Koncel-Kedziorski, Jianfeng Gao, Hannaneh Hajishirzi, Mari Ostendorf, Bill Dolan

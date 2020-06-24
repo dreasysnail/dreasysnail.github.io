@@ -7,4 +7,7 @@ venue: 'SIGDIAL(<b>Best paper nomination</b>)'
 paperurl: 'https://www.aclweb.org/anthology/W19-5919.pdf'
 citation: 'Xinnuo Xu, <b>Yizhe Zhang</b>, Lars Liden and Sungjin Lee'
 ---
+
+[Download paper here](https://www.aclweb.org/anthology/W19-5919.pdf)
+
 Recommended citation: Xinnuo Xu, *Yizhe Zhang*, Lars Liden and Sungjin Lee

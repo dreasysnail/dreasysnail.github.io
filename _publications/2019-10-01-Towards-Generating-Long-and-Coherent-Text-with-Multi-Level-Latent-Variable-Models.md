@@ -7,4 +7,7 @@ venue: 'ACL'
 paperurl: 'https://arxiv.org/abs/1902.00154'
 citation: 'Dinghan Shen, Asli Celikyilmaz, <b>Yizhe Zhang</b>, Liqun Chen, Xin Wang, Jianfeng Gao, Lawrence Carin'
 ---
+
+[Download paper here](https://arxiv.org/abs/1902.00154)
+
 Recommended citation: Dinghan Shen, Asli Celikyilmaz, *Yizhe Zhang*, Liqun Chen, Xin Wang, Jianfeng Gao, Lawrence Carin

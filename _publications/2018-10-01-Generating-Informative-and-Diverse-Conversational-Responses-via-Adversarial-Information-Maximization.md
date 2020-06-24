@@ -8,4 +8,7 @@ paperurl: 'https://arxiv.org/abs/1809.05972'
 citation: '<b>Yizhe Zhang</b>, Michel Galley, Jianfeng Gao, Zhe Gan, Xiujun Li, Chris Brockett, Bill Dolan'
 code: 'https://github.com/dreasysnail/converse_GAN'
 ---
+
+[Download paper here](https://arxiv.org/abs/1809.05972)
+
 Recommended citation: *Yizhe Zhang*, Michel Galley, Jianfeng Gao, Zhe Gan, Xiujun Li, Chris Brockett, Bill Dolan

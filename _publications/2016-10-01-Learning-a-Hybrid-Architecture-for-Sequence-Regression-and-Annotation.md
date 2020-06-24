@@ -8,4 +8,7 @@ paperurl: '/files/AAAI_2016_zhang.pdf'
 citation: '<b>Yizhe Zhang</b>, Ricardo Henao, Jianling Zhong, Lawrence Carin, Alexander Hartemink'
 code: '/files/AAAI_suppl.zip'
 ---
+
+[Download paper here](/files/AAAI_2016_zhang.pdf)
+
 Recommended citation: *Yizhe Zhang*, Ricardo Henao, Jianling Zhong, Lawrence Carin, Alexander Hartemink
