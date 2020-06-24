@@ -1,9 +1,9 @@
 ---
 title: "Contextual Text Style Transfer."
 collection: publications
-permalink: /publication/2000-10-01-Contextual-Text-Style-Transfer
-date: 2000-10-01
-venue: 'preprint'
+permalink: /publication/2020-12-01-Contextual-Text-Style-Transfer
+date: 2020-12-01
+venue: 'ArXiv preprint'
 paperurl: 'https://arxiv.org/abs/2005.00136'
 citation: 'Yu Cheng, Zhe Gan, <b>Yizhe Zhang</b>, Oussama Elachqar, Dianqi Li, Jingjing Liu'
 ---
