@@ -11,9 +11,11 @@ author_profile: true
 
 {% include base_path %}
 
+<h2 itemprop="headline">2012</h2>
 {% for post in site.publications reversed %}
-  <h2 itemprop="headline">2020</h2>
+  {% if (post.date | default: "1900-01-01" | date: "%Y") == '2012' %}
   {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
 
 
