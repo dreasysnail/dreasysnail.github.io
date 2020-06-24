@@ -11,6 +11,10 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
+{% for post in site.publications_2020 reversed %}
+  <h2 itemprop="headline">2020</h2>
   {% include archive-single.html %}
 {% endfor %}
+
+
+
