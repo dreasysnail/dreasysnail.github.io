@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -8,11 +8,7 @@ redirect_from:
 ---
 
 
-Curriculum Vitae
-
-======
-
-Available in PDF format.
+[Available in PDF format.](./files/cv_yizhezhang.pdf)
 
 <!-- {% include base_path %}
 
