@@ -8,4 +8,7 @@ paperurl: 'https://arxiv.org/abs/1610.06664'
 citation: 'Changyou Chen, Nan Ding, Chunyuan Li, <b>Yizhe Zhang</b>, Lawrence Carin'
 code: 'https://github.com/cchangyou/S2G-MCMC'
 ---
+
+[Download paper here](https://arxiv.org/abs/1610.06664)
+
 Recommended citation: Changyou Chen, Nan Ding, Chunyuan Li, *Yizhe Zhang*, Lawrence Carin

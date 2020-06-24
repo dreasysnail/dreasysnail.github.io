@@ -8,4 +8,7 @@ paperurl: 'https://arxiv.org/abs/1706.03850'
 citation: '<b>Yizhe Zhang</b>, Zhe Gan, Kai Fan, Zhi Chen, Ricardo Henao, Lawrence Carin'
 code: 'https://github.com/dreasysnail/textGAN_public'
 ---
+
+[Download paper here](https://arxiv.org/abs/1706.03850)
+
 Recommended citation: *Yizhe Zhang*, Zhe Gan, Kai Fan, Zhi Chen, Ricardo Henao, Lawrence Carin

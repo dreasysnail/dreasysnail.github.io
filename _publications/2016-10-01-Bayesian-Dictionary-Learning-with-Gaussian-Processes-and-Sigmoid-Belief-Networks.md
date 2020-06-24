@@ -8,4 +8,7 @@ paperurl: '/files/VSAE.pdf'
 citation: '<b>Yizhe Zhang</b>, Ricardo Henao, Chunyuan Li, Lawrence Carin'
 code: '/files/gpfa.zip'
 ---
+
+[Download paper here](/files/VSAE.pdf)
+
 Recommended citation: *Yizhe Zhang*, Ricardo Henao, Chunyuan Li, Lawrence Carin
