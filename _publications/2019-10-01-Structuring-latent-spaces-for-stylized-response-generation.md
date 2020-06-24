@@ -8,6 +8,4 @@ paperurl: 'https://arxiv.org/abs/1909.05361'
 citation: 'Xiang Gao, <b>Yizhe Zhang</b>, Sungjin Lee, Michel Galley, Chris Brockett, Jianfeng Gao and Bill Dolan'
 code: 'https://github.com/golsun/StyleFusion'
 ---
-[Download paper here](https://arxiv.org/abs/1909.05361)
-
 Recommended citation: Xiang Gao, *Yizhe Zhang*, Sungjin Lee, Michel Galley, Chris Brockett, Jianfeng Gao and Bill Dolan

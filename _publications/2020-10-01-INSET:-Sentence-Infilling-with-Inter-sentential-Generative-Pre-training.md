@@ -8,6 +8,4 @@ paperurl: 'https://arxiv.org/abs/1911.03892'
 citation: 'Yichen Huang, <b>Yizhe Zhang</b>, Oussama Elachqar, Yu Cheng'
 code: 'https://github.com/dreasysnail/INSET'
 ---
-[Download paper here](https://arxiv.org/abs/1911.03892)
-
 Recommended citation: Yichen Huang, *Yizhe Zhang*, Oussama Elachqar, Yu Cheng

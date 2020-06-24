@@ -8,6 +8,4 @@ paperurl: 'https://www.aclweb.org/anthology/P19-3021.pdf'
 citation: 'Vighnesh Leonardo Shiv, Chris Quirk, Anshuman Suri, Xiang Gao, Khuram Shahid, Nithya Govindarajan, <b>Yizhe Zhang</b>, Jianfeng Gao, Michel Galley, Chris Brockett, Tulasi Menon, Bill Dolan'
 code: 'https://github.com/microsoft/icecaps'
 ---
-[Download paper here](https://www.aclweb.org/anthology/P19-3021.pdf)
-
 Recommended citation: Vighnesh Leonardo Shiv, Chris Quirk, Anshuman Suri, Xiang Gao, Khuram Shahid, Nithya Govindarajan, *Yizhe Zhang*, Jianfeng Gao, Michel Galley, Chris Brockett, Tulasi Menon, Bill Dolan

@@ -8,6 +8,4 @@ paperurl: 'https://arxiv.org/abs/1706.01498'
 citation: '<b>Yizhe Zhang</b>, Changyou Chen, Zhe Gan, Ricardo Henao, Lawrence Carin'
 code: 'https://github.com/dreasysnail/SGMGT'
 ---
-[Download paper here](https://arxiv.org/abs/1706.01498)
-
 Recommended citation: *Yizhe Zhang*, Changyou Chen, Zhe Gan, Ricardo Henao, Lawrence Carin
