@@ -13,7 +13,8 @@ author_profile: true
 
 <h2 itemprop="headline">2012</h2>
 {% for post in site.publications reversed %}
-  {% if post.date contains "2012" %}
+  {% capture year %}{{ post.date | date:"%Y" }}{% endcapture %}
+  {% if year == "2012" %}
   {% include archive-single.html %}
   {% endif %}
 {% endfor %}
