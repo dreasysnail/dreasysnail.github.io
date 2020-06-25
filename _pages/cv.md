@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-[Available in PDF format.](./files/cv_yizhezhang.pdf)
+[Available in PDF format.](/files/cv_yizhezhang.pdf)
 
 <!-- {% include base_path %}
 
