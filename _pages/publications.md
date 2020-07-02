@@ -19,6 +19,7 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
 <h2 itemprop="headline">Preprint</h2>
 {% for post in site.publications reversed %}
   {% capture month %}{{ post.date | date:"%M" }}{% endcapture %}
+  {{month}}
   {% if month == "12" %}
   {% include archive-single.html %}
   {% endif %}
@@ -28,7 +29,7 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
 <h2 itemprop="headline">2020</h2>
 {% for post in site.publications reversed %}
   {% capture year %}{{ post.date | date:"%Y" }}{% endcapture %}
-  {% if year == "2020" %}
+  {% if year == "2020" and month == "10" %}
   {% include archive-single.html %}
   {% endif %}
 {% endfor %}
@@ -36,7 +37,7 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
 <h2 itemprop="headline">2019</h2>
 {% for post in site.publications reversed %}
   {% capture year %}{{ post.date | date:"%Y" }}{% endcapture %}
-  {% if year == "2019" %}
+  {% if year == "2019" and month == "10" %}
   {% include archive-single.html %}
   {% endif %}
 {% endfor %}
@@ -44,25 +45,15 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
 <h2 itemprop="headline">2018</h2>
 {% for post in site.publications reversed %}
   {% capture year %}{{ post.date | date:"%Y" }}{% endcapture %}
-  {% if year == "2018" %}
+  {% if year == "2018" and month == "10" %}
   {% include archive-single.html %}
   {% endif %}
 {% endfor %}
-
-<h2 itemprop="headline">2018</h2>
-{% for post in site.publications reversed %}
-  {% capture year %}{{ post.date | date:"%Y" }}{% endcapture %}
-  {% if year == "2018" %}
-  {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
-
-
 
 <h2 itemprop="headline">2017</h2>
 {% for post in site.publications reversed %}
   {% capture year %}{{ post.date | date:"%Y" }}{% endcapture %}
-  {% if year == "2017" %}
+  {% if year == "2017" and month == "10" %}
   {% include archive-single.html %}
   {% endif %}
 {% endfor %}
@@ -70,7 +61,7 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
 <h2 itemprop="headline">2016</h2>
 {% for post in site.publications reversed %}
   {% capture year %}{{ post.date | date:"%Y" }}{% endcapture %}
-  {% if year == "2016" %}
+  {% if year == "2016" and month == "10" %}
   {% include archive-single.html %}
   {% endif %}
 {% endfor %}
@@ -78,7 +69,7 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
 <h2 itemprop="headline">2015</h2>
 {% for post in site.publications reversed %}
   {% capture year %}{{ post.date | date:"%Y" }}{% endcapture %}
-  {% if year == "2015" %}
+  {% if year == "2015" and month == "10" %}
   {% include archive-single.html %}
   {% endif %}
 {% endfor %}
@@ -86,7 +77,7 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
 <h2 itemprop="headline">2012</h2>
 {% for post in site.publications reversed %}
   {% capture year %}{{ post.date | date:"%Y" }}{% endcapture %}
-  {% if year == "2012" %}
+  {% if year == "2012" and month == "10" %}
   {% include archive-single.html %}
   {% endif %}
 {% endfor %}
