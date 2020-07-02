@@ -5,12 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-<div>author: {{author.googlescholar}}</div>
-# {% if author.googlescholar %}  
-  <!-- You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u> -->
-# {% endif %}
-
-You can also find my articles on <u><a href="https://scholar.google.com/citations?user=WDVMfggAAAAJ&hl=en">my Google Scholar profile</a>.</u>
+You can also find my publication list from <u><a href="https://scholar.google.com/citations?user=WDVMfggAAAAJ&hl=en">my Google Scholar profile</a>.</u>
 
 {% include base_path %}
 
@@ -19,7 +14,6 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
 <h2 itemprop="headline">Preprint</h2>
 {% for post in site.publications reversed %}
   {% capture month %}{{ post.date | date:"%m" }}{% endcapture %}
-  {{month}}
   {% if month == "12" %}
   {% include archive-single.html %}
   {% endif %}
