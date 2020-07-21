@@ -6,6 +6,7 @@ date: 2020-12-01
 venue: 'ArXiv preprint'
 paperurl: 'https://arxiv.org/abs/2005.00558'
 citation: '<b>Yizhe Zhang</b>, Guoyin Wang, Chunyuan Li, Zhe Gan, Chris Brockett, Bill Dolan'
+code: 'https://github.com/dreasysnail/POINTER'
 ---
 
 [Download paper here](https://arxiv.org/abs/2005.00558)
