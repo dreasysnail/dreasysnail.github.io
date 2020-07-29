@@ -40,6 +40,8 @@ pub_date	title	venue	citation	paper_url	code_url
 2020-10-01	Improving Disentangled Text Representation Learning with Information Theoretical Guidance.	ACL	     Pengyu Cheng, Renqiang Min, Dinghan Shen, Christopher Malon, *Yizhe Zhang*, Yitong Li and Lawrence Carin	http://people.ee.duke.edu/~lcarin/Pengyu_ACL_2020.pdf	NONE
 2020-10-01	INSET: Sentence Infilling with Inter-sentential Generative Pre-training.	ACL	     Yichen Huang, *Yizhe Zhang*, Oussama Elachqar, Yu Cheng	https://arxiv.org/abs/1911.03892	https://github.com/dreasysnail/INSET
 2020-10-01	DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation.	system demonstration, ACL	     *Yizhe Zhang*, Siqi Sun, Michel Galley, Yen-Chun Chen, Chris Brockett, Xiang Gao, Jianfeng Gao, Jingjing Liu, Bill Dolan	https://arxiv.org/abs/1911.00536	https://github.com/microsoft/DialoGPT
+2020-10-01	Datasets and Benchmarks for Task-Oriented Log Dialogue Ranking Task	Interspeech	Xinnuo Xu, *Yizhe Zhang*, Lars Liden, Sungjin Lee	none	none
+
 
 
 
