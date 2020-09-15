@@ -35,7 +35,7 @@ import re
 
 # In[3]:
 
-publications = pd.read_csv("publications.tsv", sep="\t", header=0)
+publications = pd.read_csv("/Users/yizhe/Documents/homepage/dreasysnail.github.io/markdown_generator/publications.tsv", sep="\t", header=0)
 publications
 
 
