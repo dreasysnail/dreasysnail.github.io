@@ -24,6 +24,7 @@
 # In[2]:
 
 import pandas as pd
+import re
 
 
 # ## Import TSV
@@ -54,19 +55,21 @@ def html_escape(text):
     """Produce entities within text."""
     return "".join(html_escape_table.get(c,c) for c in text)
 
-
+def replace_bold(text):
+    """Produce entities within text."""
+    return re.sub(r'\*(.*)\*', r'<b>\1</b>', text)
 # ## Creating the markdown files
 # 
 # This is where the heavy lifting is done. This loops through all the rows in the TSV dataframe, then starts to concatentate a big string (```md```) that contains the markdown for each type. It does the YAML metadata first, then does the description for the individual page. If you don't want something to appear (like the "Recommended citation")
 
 # In[5]:
-
 import os
 for row, item in publications.iterrows():
-    
-    md_filename = str(item.pub_date) + "-" + item.url_slug + ".md"
-    html_filename = str(item.pub_date) + "-" + item.url_slug
+    url_slug = "-".join(item.title.strip(".").split())
+    md_filename = str(item.pub_date) + "-" + url_slug + ".md"
+    html_filename = str(item.pub_date) + "-" + url_slug
     year = item.pub_date[:4]
+    item.citation = item.citation.lstrip()
     
     ## YAML variables
     
@@ -76,27 +79,31 @@ for row, item in publications.iterrows():
     
     md += """\npermalink: /publication/""" + html_filename
     
-    if len(str(item.excerpt)) > 5:
-        md += "\nexcerpt: '" + html_escape(item.excerpt) + "'"
+    # if len(str(item.excerpt)) > 5:
+    #     md += "\nexcerpt: '" + html_escape(item.excerpt) + "'"
     
     md += "\ndate: " + str(item.pub_date) 
     
-    md += "\nvenue: '" + html_escape(item.venue) + "'"
+    md += "\nvenue: '" + html_escape(replace_bold(item.venue)) + "'"
     
     if len(str(item.paper_url)) > 5:
         md += "\npaperurl: '" + item.paper_url + "'"
     
-    md += "\ncitation: '" + html_escape(item.citation) + "'"
+    md += "\ncitation: '" + html_escape(replace_bold(item.citation)) + "'"
+
+    if len(str(item.code_url)) > 5:
+        md += "\ncode: '" + item.code_url + "'"
     
     md += "\n---"
     
     ## Markdown description for individual page
-    
-    if len(str(item.paper_url)) > 5:
-        md += "\n\n<a href='" + item.paper_url + "'>Download paper here</a>\n" 
         
-    if len(str(item.excerpt)) > 5:
-        md += "\n" + html_escape(item.excerpt) + "\n"
+    # if len(str(item.excerpt)) > 5:
+    #     md += "\n" + html_escape(item.excerpt) + "\n"
+    md += "\n"
+
+    if len(str(item.paper_url)) > 5:
+        md += "\n[Download paper here](" + item.paper_url + ")\n" 
         
     md += "\nRecommended citation: " + item.citation
     
