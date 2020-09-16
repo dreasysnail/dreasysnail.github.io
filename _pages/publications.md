@@ -14,7 +14,8 @@ You can also find my publication list from <u><a href="https://scholar.google.co
 <h2 itemprop="headline">Preprint</h2>
 {% for post in site.publications reversed %}
   {% capture month %}{{ post.date | date:"%m" }}{% endcapture %}
-  {% if month == "12" %}
+  {% capture day %}{{ post.date | date:"%d" }}{% endcapture %}
+  {% if month == "12" and day == "01"%}
   {% include archive-single.html %}
   {% endif %}
 {% endfor %}
@@ -24,7 +25,8 @@ You can also find my publication list from <u><a href="https://scholar.google.co
 {% for post in site.publications reversed %}
   {% capture year %}{{ post.date | date:"%Y" }}{% endcapture %}
   {% capture month %}{{ post.date | date:"%m" }}{% endcapture %}
-  {% if year == "2020" and month == "10" %}
+  {% capture day %}{{ post.date | date:"%d" }}{% endcapture %}
+  {% if year == "2020" and month != "12" and day != "01" %}
   {% include archive-single.html %}
   {% endif %}
 {% endfor %}
