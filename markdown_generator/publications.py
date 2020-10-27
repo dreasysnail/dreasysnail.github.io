@@ -25,6 +25,8 @@
 
 import pandas as pd
 import re
+import os.path
+from os import path
 
 
 # ## Import TSV
@@ -109,7 +111,8 @@ for row, item in publications.iterrows():
     
     md_filename = os.path.basename(md_filename)
        
-    with open("../_publications/" + md_filename, 'w') as f:
-        f.write(md)
+    if not path.exists(""../_publications/" + md_filename):
+        with open("../_publications/" + md_filename, 'w') as f:
+            f.write(md)
 
 

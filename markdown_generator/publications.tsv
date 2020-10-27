@@ -42,12 +42,12 @@ pub_date	title	venue	citation	paper_url	code_url
 2020-04-02	DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation.	system demonstration, ACL	     *Yizhe Zhang*, Siqi Sun, Michel Galley, Yen-Chun Chen, Chris Brockett, Xiang Gao, Jianfeng Gao, Jingjing Liu, Bill Dolan	https://arxiv.org/abs/1911.00536	https://github.com/microsoft/DialoGPT
 2020-07-10	Datasets and Benchmarks for Task-Oriented Log Dialogue Ranking Task	Interspeech	Xinnuo Xu, *Yizhe Zhang*, Lars Liden, Sungjin Lee	none	none
 2020-08-10	Weakly supervised cross-domain alignment with optimal transport Task	BMVC(oral presentation)	Siyang Yuan, Ke Bai, Liqun Chen, *Yizhe Zhang*, Chenyang Tao, Chunyuan Li, Guoyin Wang, Ricardo Henao, Lawrence Carin	https://arxiv.org/abs/2008.06597	none
-2020-09-16	POINTER: Constrained Text Generation via Insertion-based Generative Pre-training.	EMNLP	     *Yizhe Zhang*, Guoyin Wang, Chunyuan Li, Zhe Gan, Chris Brockett, Bill Dolan	https://arxiv.org/abs/2005.00558	NONE
+2020-09-16	POINTER: Constrained Text Generation via Insertion-based Generative Pre-training.	EMNLP	     *Yizhe Zhang*, Guoyin Wang, Chunyuan Li, Zhe Gan, Chris Brockett, Bill Dolan	https://arxiv.org/abs/2005.00558	https://github.com/dreasysnail/POINTER
 2020-09-15	Contextual Text Style Transfer.	Findings of EMNLP	     Yu Cheng, Zhe Gan, *Yizhe Zhang*, Oussama Elachqar, Dianqi Li, Jingjing Liu	https://arxiv.org/abs/2005.00136	NONE
 2020-09-16	Optimus: Organizing Sentences via Pre-trained Modeling of a Latent Space.	EMNLP	     Chunyuan Li, Xiang Gao, Yuan Li, Xiujun Li, Baolin Peng, *Yizhe Zhang*, Jianfeng Gao	https://arxiv.org/abs/2004.04092	https://github.com/ChunyuanLI/Optimus
 2020-09-16	 Dialogue Response Ranking Training with Large-Scale Human Feedback Data.	EMNLP	     Xiang Gao, Yizhe Zhang, Michel Galley, Chris Brockett and Bill Dolan	None	https://github.com/golsun/DialogRPT
 2020-09-16	 Improving Text Generation with Student-Forcing Optimal Transport.	EMNLP	     Jianqiao Li, Chunyuan Li, Guoyin Wang, Hao Fu, Yuhchen Lin, Liqun Chen, Yizhe Zhang, Chenyang Tao, Ruiyi Zhang, Wenlin Wang, Dinghan Shen, Qian Yang and Lawrence Carin	None	None
-
+2020-09-17	 Contrastively Smoothed Class Alignment for Unsupervised Domain Adaptation	ACCV	     Shuyang Dai, Yu Cheng, Yizhe Zhang, Zhe Gan, JJ Liu, Lawrence Carins	https://arxiv.org/abs/1909.05288	None
 
 2020-12-01	Consistent Dialogue Generation with Self-supervised Feature Learning.	ArXiv preprint	     *Yizhe Zhang*, Xiang Gao, Sungjin Lee, Chris Brockett, Michel Galley, Jianfeng Gao, Bill Dolan	https://arxiv.org/abs/1903.05759	https://github.com/dreasysnail/CoCon
 2020-12-01	Unsupervised Common Question Generation from Multiple Documents using Reinforced Contrastive Coordinator.	ArXiv preprint	     Woon Sang Cho, *Yizhe Zhang*, Sudha Rao, Asli Celikyilmaz, Chenyan Xiong, Jianfeng Gao, Mengdi Wang, Bill Dolan	https://arxiv.org/abs/1911.03047	NONE
