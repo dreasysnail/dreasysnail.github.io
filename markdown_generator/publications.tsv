@@ -49,7 +49,11 @@ pub_date	title	venue	citation	paper_url	code_url
 2020-09-16	 Improving Text Generation with Student-Forcing Optimal Transport.	EMNLP	     Jianqiao Li, Chunyuan Li, Guoyin Wang, Hao Fu, Yuhchen Lin, Liqun Chen, Yizhe Zhang, Chenyang Tao, Ruiyi Zhang, Wenlin Wang, Dinghan Shen, Qian Yang and Lawrence Carin	None	None
 2020-09-17	 Contrastively Smoothed Class Alignment for Unsupervised Domain Adaptation	ACCV	     Shuyang Dai, Yu Cheng, Yizhe Zhang, Zhe Gan, JJ Liu, Lawrence Carins	https://arxiv.org/abs/1909.05288	None
 
-2020-12-01	Consistent Dialogue Generation with Self-supervised Feature Learning.	ArXiv preprint	     *Yizhe Zhang*, Xiang Gao, Sungjin Lee, Chris Brockett, Michel Galley, Jianfeng Gao, Bill Dolan	https://arxiv.org/abs/1903.05759	https://github.com/dreasysnail/CoCon
-2020-12-01	Unsupervised Common Question Generation from Multiple Documents using Reinforced Contrastive Coordinator.	ArXiv preprint	     Woon Sang Cho, *Yizhe Zhang*, Sudha Rao, Asli Celikyilmaz, Chenyan Xiong, Jianfeng Gao, Mengdi Wang, Bill Dolan	https://arxiv.org/abs/1911.03047	NONE
-2020-12-01	A Controllable Model of Grounded Response Generation.	ArXiv preprint	     Zeqiu Wu, Michel Galley, Chris Brockett, *Yizhe Zhang*, Xiang Gao, Chris Quirk, Rik Koncel-Kedziorski, Jianfeng Gao, Hannaneh Hajishirzi, Mari Ostendorf, Bill Dolan	https://arxiv.org/abs/2005.00613	NONE
+2021-01-03	A Controllable Model of Grounded Response Generation.	AAAI	     Zeqiu Wu, Michel Galley, Chris Brockett, *Yizhe Zhang*, Xiang Gao, Chris Quirk, Rik Koncel-Kedziorski, Jianfeng Gao, Hannaneh Hajishirzi, Mari Ostendorf, Bill Dolan	https://arxiv.org/abs/2005.00613	NONE
+2021-01-03	Data Augmentation for Abstractive Query-Focused Multi-Document Summarization.	AAAI	     Ramakanth Pasunuru, Asli Celikyilmaz , Michel Galley, Chenyan Xiong, Yizhe Zhang, Mohit Bansal, Jianfeng Gao	https://arxiv.org/abs/2005.00613	NONE
+
+
+2021-12-01	Consistent Dialogue Generation with Self-supervised Feature Learning.	ArXiv preprint	     *Yizhe Zhang*, Xiang Gao, Sungjin Lee, Chris Brockett, Michel Galley, Jianfeng Gao, Bill Dolan	https://arxiv.org/abs/1903.05759	https://github.com/dreasysnail/CoCon
+2021-12-01	Unsupervised Common Question Generation from Multiple Documents using Reinforced Contrastive Coordinator.	ArXiv preprint	     Woon Sang Cho, *Yizhe Zhang*, Sudha Rao, Asli Celikyilmaz, Chenyan Xiong, Jianfeng Gao, Mengdi Wang, Bill Dolan	https://arxiv.org/abs/1911.03047	NONE
+
 

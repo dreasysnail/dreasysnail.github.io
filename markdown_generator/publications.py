@@ -111,7 +111,8 @@ for row, item in publications.iterrows():
     
     md_filename = os.path.basename(md_filename)
        
-    if not path.exists(""../_publications/" + md_filename):
+    if not path.exists("../_publications/" + md_filename):
+        # import pdb;pdb.set_trace()
         with open("../_publications/" + md_filename, 'w') as f:
             f.write(md)
 
