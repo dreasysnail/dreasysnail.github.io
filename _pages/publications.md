@@ -21,6 +21,18 @@ You can also find my publication list from <u><a href="https://scholar.google.co
 {% endfor %}
 
 
+<h2 itemprop="headline">2021</h2>
+{% for post in site.publications reversed %}
+  {% capture year %}{{ post.date | date:"%Y" }}{% endcapture %}
+  {% capture month %}{{ post.date | date:"%m" }}{% endcapture %}
+  {% capture day %}{{ post.date | date:"%d" }}{% endcapture %}
+  {% if year == "2021" and month != "12" and day != "01" %}
+  {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+
+
 <h2 itemprop="headline">2020</h2>
 {% for post in site.publications reversed %}
   {% capture year %}{{ post.date | date:"%Y" }}{% endcapture %}
