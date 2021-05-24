@@ -52,7 +52,17 @@ pub_date	title	venue	citation	paper_url	code_url
 2021-01-03	A Controllable Model of Grounded Response Generation.	AAAI	     Zeqiu Wu, Michel Galley, Chris Brockett, *Yizhe Zhang*, Xiang Gao, Chris Quirk, Rik Koncel-Kedziorski, Jianfeng Gao, Hannaneh Hajishirzi, Mari Ostendorf, Bill Dolan	https://arxiv.org/abs/2005.00613	NONE
 2021-01-03	Data Augmentation for Abstractive Query-Focused Multi-Document Summarization.	AAAI	     Ramakanth Pasunuru, Asli Celikyilmaz , Michel Galley, Chenyan Xiong, *Yizhe Zhang*, Mohit Bansal, Jianfeng Gao	https://arxiv.org/abs/2005.00613	NONE
 2021-01-15	Unsupervised Common Question Generation from Multiple Documents using Reinforced Contrastive Coordinator.	EACL	     Woon Sang Cho, *Yizhe Zhang*, Sudha Rao, Asli Celikyilmaz, Chenyan Xiong, Jianfeng Gao, Mengdi Wang, Bill Dolan	https://arxiv.org/abs/1911.03047	NONE
+2021-02-15	Contextualized perturbation for textual adversarial attack.	NAACL	     Dianqi Li, *Yizhe Zhang*, Hao Peng, Liqun Chen, Chris Brockett, Ming-Ting Sun, Bill Dolan	https://arxiv.org/abs/2009.07502	https://github.com/cookielee77/CLARE
+
 
 
 2021-12-01	Consistent Dialogue Generation with Self-supervised Feature Learning.	ArXiv preprint	     *Yizhe Zhang*, Xiang Gao, Sungjin Lee, Chris Brockett, Michel Galley, Jianfeng Gao, Bill Dolan	https://arxiv.org/abs/1903.05759	https://github.com/dreasysnail/CoCon
 2021-12-01	Narrative Incoherence Detection.	ArXiv preprint	     Deng Cai, *Yizhe Zhang*, Yichen Huang, Wai Lam, Bill Dolan	https://arxiv.org/abs/2012.11157	None
+2021-12-01	What Makes Good In-Context Examples for GPT-?	ArXiv preprint	     Jiachang Liu, Dinghan Shen, *Yizhe Zhang*, Bill Dolan, Lawrence Carin, Weizhu Chen	https://arxiv.org/abs/2101.06804	None
+2021-12-01	Finetuning Pretrained Transformers into RNNs.	ArXiv preprint	     Jungo Kasai, Hao Peng, *Yizhe Zhang*, Dani Yogatama, Yi Mao, Weizhu Chen, Noah A Smith	https://arxiv.org/abs/2103.13076	None
+2021-12-01	An Adversarially-Learned Turing Test for Dialog Generation Models	ArXiv preprint	     Xiang Gao, *Yizhe Zhang*, Michel Galley, Bill Dolan	https://arxiv.org/abs/2104.08231	https://github.com/golsun/AdversarialTuringTest
+2021-12-01	A Token-level Reference-free Hallucination Detection Benchmark for Free-form Text Generation.	ArXiv preprint	     Tianyu Liu, *Yizhe Zhang*, Chris Brockett, Yi Mao, Zhifang Sui, Weizhu Chen, Bill Dolan	https://arxiv.org/abs/2104.08704	None
+2021-12-01	Joint Retrieval and Generation Training for Grounded Text Generation.	ArXiv preprint	     *Yizhe Zhang*, Siqi Sun, Xiang Gao, Yuwei Fang, Chris Brockett, Michel Galley, Jianfeng Gao, Bill Dolan	https://arxiv.org/abs/2105.06597	https://github.com/dreasysnail/RetGen
+
+
+

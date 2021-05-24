@@ -1,3 +1,3 @@
 cd ./markdown_generator           
-python publications.py     
+python3 publications.py     
 cd ../
