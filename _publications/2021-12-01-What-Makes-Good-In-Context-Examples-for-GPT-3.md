@@ -1,7 +1,7 @@
 ---
-title: "What Makes Good In-Context Examples for GPT-?"
+title: "What Makes Good In-Context Examples for GPT-3"
 collection: publications
-permalink: /publication/2021-12-01-What-Makes-Good-In-Context-Examples-for-GPT-?
+permalink: /publication/2021-12-01-What-Makes-Good-In-Context-Examples-for-GPT-3
 date: 2021-12-01
 venue: 'ArXiv preprint'
 paperurl: 'https://arxiv.org/abs/2101.06804'
