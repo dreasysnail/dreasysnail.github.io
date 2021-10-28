@@ -12,7 +12,7 @@ I am a Research scientist at [Facebook AI](https://ai.facebook.com/research/NLP/
 
 I have served as an Area Chair (or equivalent) for NeurIPS (2021), ACL (2021) and AAAI (2019-2021). I have served as one of the organization committee members in ACL (2020). I received NeurIPS top reviewer awards (2019). 
 
-***Please send me an [email](mailto:yizhe.zhang@hotmail.com) with your latest CV if you are a senior PhD student working on **faithful generation** or **efficient transformer** and looking for an internship***
+***Please send me an [email](mailto:yizhe.zhang@hotmail.com) with your latest CV if you are a senior PhD student working on NLG and looking for an internship***
 
 My recent research focuses on below topics:
 
