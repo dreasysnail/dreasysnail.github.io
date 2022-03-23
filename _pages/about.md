@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a Research scientist at [Facebook AI](https://ai.facebook.com/research/NLP/), primarily working on Natural Language Generation (NLG), Deep Generative Models (DGMs), Generative Pre-training and Text Representation learning. I received Ph.D. degree and M.S. degree (Statistical Science) from Duke University in 2018, advised by Professor [Lawrence Carin](http://people.ee.duke.edu/~lcarin/). Before that, I received B.Sc. degree in Physics from Nanjin University, Department for Intensive Instruction ([DII](http://dii.nju.edu.cn/kuangym/?lang=en)), Kuang Yaming Honors school in 2011.
+I am a Research scientist at [Meta AI](https://ai.facebook.com/research/NLP/), primarily working on efficient NLP models for language generation and QA. Before joining Meta, I was at [Microsoft Research NLP group] (https://www.microsoft.com/en-us/research/group/natural-language-processing/), working on text generation and pre-training. 
+
+I received Ph.D. degree and M.S. degree (Statistical Science) from Duke University in 2018, advised by Professor [Lawrence Carin](http://people.ee.duke.edu/~lcarin/). Before that, I received B.Sc. degree in Physics from Nanjin University, Department for Intensive Instruction ([DII](http://dii.nju.edu.cn/kuangym/?lang=en)), Kuang Yaming Honors school in 2011.
 
 I have served as an Area Chair (or equivalent) for NeurIPS (2021), ACL (2021) and AAAI (2019-2021). I have served as one of the organization committee members in ACL (2020). I received NeurIPS top reviewer awards (2019). 
 
@@ -16,19 +18,18 @@ I have served as an Area Chair (or equivalent) for NeurIPS (2021), ACL (2021) an
 
 My recent research focuses on below topics:
 
-- Hallucination detection and prevention for NLG. 
+- Efficient NLP models.
 
-- Efficient transformer
+- Open-domain question answering.
 
-- Open-domain question answering
+- Controllable text geneneration.
 
-- Non-autoregressive text generation.
+- Safe & Responsible NLP. 
 
-- Adversarial attacking for NLP. 
+- Non-autoregressive generation.
 
-- Controllable text generation.
+- NLP Pretraining. 
 
-- Long-form text understanding/generation/reasoning.
 
 
 
