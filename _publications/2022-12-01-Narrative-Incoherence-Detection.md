@@ -1,8 +1,8 @@
 ---
 title: "Narrative Incoherence Detection."
 collection: publications
-permalink: /publication/2021-12-01-Narrative-Incoherence-Detection
-date: 2021-12-01
+permalink: /publication/2022-12-01-Narrative-Incoherence-Detection
+date: 2022-12-01
 venue: 'ArXiv preprint'
 paperurl: 'https://arxiv.org/abs/2012.11157'
 citation: 'Deng Cai, <b>Yizhe Zhang</b>, Yichen Huang, Wai Lam, Bill Dolan'

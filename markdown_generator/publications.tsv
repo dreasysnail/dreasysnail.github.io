@@ -58,10 +58,12 @@ pub_date	title	venue	citation	paper_url	code_url
 2022-01-12	Joint Retrieval and Generation Training for Grounded Text Generation.	AAAI	     *Yizhe Zhang*, Siqi Sun, Xiang Gao, Yuwei Fang, Chris Brockett, Michel Galley, Jianfeng Gao, Bill Dolan	https://arxiv.org/abs/2105.06597	https://github.com/dreasysnail/RetGen
 2022-02-03	A Token-level Reference-free Hallucination Detection Benchmark for Free-form Text Generation.	ACL	     Tianyu Liu, *Yizhe Zhang*, Chris Brockett, Yi Mao, Zhifang Sui, Weizhu Chen, Bill Dolan	https://arxiv.org/abs/2104.08704	https://github.com/microsoft/HaDes
 
- 
-2021-12-01	Narrative Incoherence Detection.	ArXiv preprint	     Deng Cai, *Yizhe Zhang*, Yichen Huang, Wai Lam, Bill Dolan	https://arxiv.org/abs/2012.11157	None
-2021-12-01	What Makes Good In-Context Examples for GPT-3	ArXiv preprint	     Jiachang Liu, Dinghan Shen, *Yizhe Zhang*, Bill Dolan, Lawrence Carin, Weizhu Chen	https://arxiv.org/abs/2101.06804	None
-2021-12-01	An Adversarially-Learned Turing Test for Dialog Generation Models	ArXiv preprint	     Xiang Gao, *Yizhe Zhang*, Michel Galley, Bill Dolan	https://arxiv.org/abs/2104.08231	https://github.com/golsun/AdversarialTuringTest
+
+
+2022-12-01	Linearizing Transformer with Key-Value Memory	ArXiv preprint	     *Yizhe Zhang*, Deng Cai	https://arxiv.org/abs/2203.12644	None 
+2022-12-01	Narrative Incoherence Detection.	ArXiv preprint	     Deng Cai, *Yizhe Zhang*, Yichen Huang, Wai Lam, Bill Dolan	https://arxiv.org/abs/2012.11157	None
+2022-12-01	What Makes Good In-Context Examples for GPT-3	ArXiv preprint	     Jiachang Liu, Dinghan Shen, *Yizhe Zhang*, Bill Dolan, Lawrence Carin, Weizhu Chen	https://arxiv.org/abs/2101.06804	None
+2022-12-01	An Adversarially-Learned Turing Test for Dialog Generation Models	ArXiv preprint	     Xiang Gao, *Yizhe Zhang*, Michel Galley, Bill Dolan	https://arxiv.org/abs/2104.08231	https://github.com/golsun/AdversarialTuringTest
 
 
 
