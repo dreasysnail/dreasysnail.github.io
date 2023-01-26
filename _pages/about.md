@@ -14,7 +14,7 @@ I received Ph.D. degree and M.S. degree from Duke University. Before that, I rec
 
 I have served as Area Chairs (or SPC) for ICML(2022-2023), NeurIPS (2019-2022), ACL (2020-2021), EMNLP(2022) and AAAI (2018-2021). I have served as one of the organization committee members in ACL (2020). I received NeurIPS top reviewer awards (2019). 
 
-***Please send me an [email](mailto:yizzhang@apple.com) with your latest CV if you are a senior PhD student working on NLG and are interested in an research internship at APPLE MLR***
+***Please send me an [email](mailto:yizzhang@apple.com) with your latest CV if you are a senior PhD student working on Information Retrieval, Question Answering, LLM pretraining or Generation and are interested in a research internship at APPLE MLR***
 
 My recent research focuses on below topics:
 
