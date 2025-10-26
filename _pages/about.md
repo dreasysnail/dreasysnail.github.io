@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About"
+title: "Yizhe Zhang"
 excerpt: "About me"
 author_profile: true
 redirect_from:
@@ -141,9 +141,9 @@ My recent research focuses on **pushing LLMs to gain more intuition and strong g
 **Area Chair / Senior Program Committee:**
 
 <div class="service-badges">
-  <span class="badge">ICLR 2023-2024</span>
-  <span class="badge">ICML 2022-2024</span>
-  <span class="badge">NeurIPS 2019-2024</span>
+  <span class="badge">ICLR 2023-2025</span>
+  <span class="badge">ICML 2022-2025</span>
+  <span class="badge">NeurIPS 2020-2025</span>
   <span class="badge">ACL 2020-2021</span>
   <span class="badge">EMNLP 2022</span>
   <span class="badge">NAACL 2023</span>
@@ -156,4 +156,3 @@ My recent research focuses on **pushing LLMs to gain more intuition and strong g
 
 **Organization:**
 - Organization Committee Member, ACL 2020
-- NeurIPS Top Reviewer Award (2018)

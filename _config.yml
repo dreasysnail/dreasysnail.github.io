@@ -81,9 +81,9 @@ analytics:
 author:
   name             : "Yizhe Zhang"
   avatar           : "profile3.jpg"
-  bio              : "Research Scientist at Apple MLR"
-  location         : "REDMOND, WA"
-  employer         :
+  bio              : "Staff Research Scientist at Apple MLR"
+  location         : "Redmond, WA"
+  employer         : "Apple"
   googlescholar    : "https://scholar.google.com/citations?user=WDVMfggAAAAJ&hl=en"
   email            : "yizhe.zhang@hotmail.com"
   uri              :
