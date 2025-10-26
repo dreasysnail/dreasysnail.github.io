@@ -3,32 +3,157 @@ permalink: /
 title: "About"
 excerpt: "About me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-I am a staff Research scientist at [Apple MLR](https://machinelearning.apple.com), primarily working on Natural language processing and Machine Learning. Before joining Apple, I have been at [Meta AI](https://ai.facebook.com/research/NLP/) and  [Microsoft Research](https://www.microsoft.com/en-us/research/group/natural-language-processing/), working on natural language generation and NLP pre-training. 
+<style>
+.highlight-box {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 25px 0;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
 
-I received Ph.D. degree and M.S. degree from [Duke University](https://gradschool.duke.edu). Before that, I received B.Sc. degree in Physics from [Nanjing University](http://dii.nju.edu.cn/kuangym/?lang=en), Kuang Yaming Honors school, in 2011.
+.highlight-box a {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: bold;
+}
 
-I have served as Area Chairs (or SPC) for ICLR (2023-2024), ICML(2022-2024), NeurIPS (2019-2024), ACL (2020-2021), EMNLP (2022), NAACL (2023) and AAAI (2018-2021). I am serving as an Action Editor for Transactions on Machine Learning Research (TMLR, since 2023) and ACL rolling review (ARR, since 2023).
-I have served as one of the organization committee members in ACL (2020). I received NeurIPS top reviewer award (2018). 
+.section-heading {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #52adc8;
+  border-left: 4px solid #52adc8;
+  padding-left: 15px;
+}
 
-***Please send me an [email](mailto:yizzhang@apple.com) with your latest CV if you are a senior PhD student working on LLM, Multiturn Interactive System, Information Retrieval, Question Answering or Generation and are interested in a research internship at APPLE MLR***
+.research-topics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 15px;
+  margin: 20px 0;
+}
 
-My recent research focuses on below topics:
+.research-card {
+  background: #f8f9fa;
+  padding: 18px;
+  border-radius: 8px;
+  border-left: 3px solid #667eea;
+  transition: transform 0.2s, box-shadow 0.2s;
+  font-size: 0.95em;
+}
 
-- Interactive system, conversational modeling, conversational search, conversational question answering. 
+.research-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+}
 
-- Diffusion models, Non-autoregressive generation.
+.research-card strong {
+  font-size: 1.05em;
+  color: #2c3e50;
+  display: block;
+  margin-bottom: 5px;
+}
 
-- Complex reasoning and planning for Large language model. 
+.bio-section {
+  line-height: 1.8;
+  font-size: 1.05em;
+}
 
-- RL for LLM. 
+.service-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 15px 0;
+}
 
+.badge {
+  background: #e9ecef;
+  padding: 5px 12px;
+  border-radius: 15px;
+  font-size: 0.9em;
+  color: #495057;
+  border: 1px solid #dee2e6;
+}
+</style>
 
+## About Me
 
+<div class="bio-section">
 
+I am a <strong>Staff Research Scientist</strong> at <a href="https://machinelearning.apple.com">Apple MLR</a>, primarily working on <strong>Natural Language Processing</strong> and <strong>Machine Learning</strong>. Before joining Apple, I have been at <a href="https://ai.facebook.com/research/NLP/">Meta AI</a> and <a href="https://www.microsoft.com/en-us/research/group/natural-language-processing/">Microsoft Research</a>, working on natural language generation and NLP pre-training.
 
+I received my <strong>Ph.D.</strong> and <strong>M.S.</strong> degrees from <a href="https://gradschool.duke.edu">Duke University</a>. Before that, I received my <strong>B.Sc. degree in Physics</strong> from <a href="http://dii.nju.edu.cn/kuangym/?lang=en">Nanjing University</a>, Kuang Yaming Honors School, in 2011.
 
+</div>
+
+---
+
+<div class="highlight-box">
+<strong>Seeking Research Interns!</strong><br>
+Please send me an <a href="mailto:yizzhang@apple.com">email</a> with your latest CV if you are a senior PhD student working on <strong>LLM, Multiturn Interactive Systems, Information Retrieval, Question Answering, or Generation</strong> and are interested in a research internship at Apple MLR.
+</div>
+
+---
+
+<div class="section-heading">Research Interests</div>
+
+My recent research focuses on **pushing LLMs to gain more intuition and strong generalization**, especially in the **code domain**:
+
+<div class="research-topics">
+  <div class="research-card">
+    <strong>Code LLM & Agents</strong>
+    Building intelligent coding assistants and autonomous agents that understand and generate code
+  </div>
+
+  <div class="research-card">
+    <strong>Long-Horizon Planning</strong>
+    Enabling LLMs to perform complex, multi-step reasoning and planning over extended sequences
+  </div>
+
+  <div class="research-card">
+    <strong>RAG & Reasoning with Continuous Tokens</strong>
+    Retrieval-augmented generation and reasoning systems using continuous token representations
+  </div>
+
+  <div class="research-card">
+    <strong>Text Diffusion Models</strong>
+    Advancing non-autoregressive generation through diffusion-based approaches
+  </div>
+
+  <div class="research-card">
+    <strong>Coding-Based AI Scientist</strong>
+    Developing AI systems that can autonomously discover knowledge through code
+  </div>
+</div>
+
+---
+
+<div class="section-heading">Academic Service</div>
+
+**Area Chair / Senior Program Committee:**
+
+<div class="service-badges">
+  <span class="badge">ICLR 2023-2024</span>
+  <span class="badge">ICML 2022-2024</span>
+  <span class="badge">NeurIPS 2019-2024</span>
+  <span class="badge">ACL 2020-2021</span>
+  <span class="badge">EMNLP 2022</span>
+  <span class="badge">NAACL 2023</span>
+  <span class="badge">AAAI 2018-2021</span>
+</div>
+
+**Editorial Roles:**
+- **Action Editor** for Transactions on Machine Learning Research (TMLR, since 2023)
+- **Action Editor** for ACL Rolling Review (ARR, since 2023)
+
+**Organization:**
+- Organization Committee Member, ACL 2020
+- NeurIPS Top Reviewer Award (2018)
