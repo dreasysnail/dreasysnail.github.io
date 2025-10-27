@@ -346,7 +346,7 @@ redirect_from:
 </div>
 
 ---
-
+<!-- 
 <div class="cv-section">
   <div class="section-title">Education</div>
 
@@ -375,77 +375,9 @@ redirect_from:
       Kuang Yaming Honors School
     </div>
   </div>
-</div>
+</div> -->
 
----
 
-<div class="cv-section">
-  <div class="section-title">Recent Talks</div>
-
-  <ul class="talks-list">
-    <li>
-      <div class="talk-date">October 2025</div>
-      <div class="talk-title">Towards Understanding and Building Intuition for Language Model</div>
-      <div class="talk-venue">
-        • University of Pennsylvania, Guest Lecturer<br>
-        • BAIR NLP Workshop, UC Berkeley, Invited Speaker<br>
-        • University of Washington, NLP Seminar, Invited Speaker
-      </div>
-    </li>
-
-    <li>
-      <div class="talk-date">July 2025</div>
-      <div class="talk-title">Bidirectional Language Model</div>
-      <div class="talk-venue">
-        • Apple Natural Language Understanding Workshop, Invited Speaker
-      </div>
-    </li>
-  </ul>
-</div>
-
----
-
-<div class="cv-section">
-  <div class="section-title">Selected Publications</div>
-
-  <p style="margin-bottom: 20px;">For a complete list of publications, please visit <a href="/publications/">my publications page</a> or <a href="https://scholar.google.com/citations?user=WDVMfggAAAAJ&hl=en">Google Scholar profile</a>.</p>
-
-  <div class="selected-pubs">
-    <div class="pub-item">
-      <strong>DiffuCoder: Understanding and Improving Masked Diffusion Models for Code Generation.</strong> Shansan Gong, Ruixiang Zhang, Huangjie Zheng, Jiatao Gu, Navdeep Jaitly, Lingpeng Kong, Yizhe Zhang. <span class="pub-venue">arXiv 2025</span>
-    </div>
-
-    <div class="pub-item">
-      <strong>Training Software Engineering Agents and Verifiers with SWE-Gym.</strong> Jiayi Pan, Xingyao Wang, Graham Neubig, Navdeep Jaitly, Heng Ji, Alane Suhr, Yizhe Zhang. <span class="pub-venue">ICML 2025</span>
-    </div>
-
-    <div class="pub-item">
-      <strong>Flexible Language Modeling in Continuous Space with Transformer-based Autoregressive Flows.</strong> Ruixiang Zhang, Shuangfei Zhai, Jiatao Gu, Yizhe Zhang, Huangjie Zheng, Tianrong Chen, Miguel Angel Bautista, Josh Susskind, Navdeep Jaitly. <span class="pub-venue">NeurIPS 2025</span>
-    </div>
-
-    <div class="pub-item">
-      <strong>All-Hands: An Open Platform for AI Software Developers as Generalist Agents.</strong> Xingyao Wang, Boxuan Li, Yufan Song, et al. <span class="pub-venue">ICLR 2024</span>
-    </div>
-
-    <div class="pub-item">
-      <strong>PLANNER: Generating Diversified Paragraph via Latent Language Diffusion Model.</strong> Yizhe Zhang, Jiatao Gu, Zhuofeng Wu, Shuangfei Zhai, Joshua Susskind, Navdeep Jaitly. <span class="pub-venue">NeurIPS 2023</span>
-    </div>
-
-    <div class="pub-item">
-      <strong>POINTER: Constrained Text Generation via Insertion-based Generative Pre-training.</strong> Yizhe Zhang, Guoyin Wang, Chunyuan Li, Zhe Gan, Chris Brockett, Bill Dolan. <span class="pub-venue">EMNLP 2020</span>
-    </div>
-
-    <div class="pub-item">
-      <strong>DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation.</strong> Yizhe Zhang, Siqi Sun, Michel Galley, Yen-Chun Chen, Chris Brockett, Xiang Gao, Jianfeng Gao, Jingjing Liu, Bill Dolan. <span class="pub-venue">ACL 2020 (Demo)</span>
-    </div>
-
-    <div class="pub-item">
-      <strong>Generating Informative and Diverse Conversational Responses via Adversarial Information Maximization.</strong> Yizhe Zhang, Michel Galley, Jianfeng Gao, Zhe Gan, Xiujun Li, Chris Brockett, Bill Dolan. <span class="pub-venue">NeurIPS 2018</span>
-    </div>
-  </div>
-</div>
-
----
 
 <div class="cv-section">
   <div class="section-title">Professional Services</div>
