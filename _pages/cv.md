@@ -380,6 +380,87 @@ redirect_from:
 
 
 <div class="cv-section">
+  <div class="section-title">Recent Talks</div>
+
+  <ul class="talks-list">
+    <li>
+      <div class="talk-date">October 2025</div>
+      <div class="talk-title">Towards Understanding and Building Intuition for Language Model</div>
+      <div class="talk-venue">
+        • University of Pennsylvania, Guest lecturer<br>
+        • BAIR NLP workshop, UC Berkeley, Invited speaker<br>
+        • University of Washington, NLP seminar, Invited speaker
+      </div>
+    </li>
+    <li>
+      <div class="talk-date">July 2025</div>
+      <div class="talk-title">Bidirectional Language Model</div>
+      <div class="talk-venue">Apple Natural Language Understanding workshop, Invited speaker</div>
+    </li>
+  </ul>
+</div>
+
+---
+
+<div class="cv-section">
+  <div class="section-title">Selected Preprints</div>
+
+  <div class="selected-pubs">
+    <div class="pub-item">
+      <strong>Haoqiang Kang, Yizhe Zhang, Nikki Lijing Kuang, Nicklas Majamaki, Navdeep Jaitly, Yi-An Ma, Lianhui Qin.</strong>
+      LaDiR: Latent Diffusion Enhances LLMs for Text Reasoning.
+      <span class="pub-venue">arXiv (2025)</span>
+      [<a href="https://arxiv.org/abs/2510.04573">paper</a>]
+    </div>
+
+    <div class="pub-item">
+      <strong>Huangjie Zheng, Shansan Gong, Ruixiang Zhang, Tianrong Chen, Jiatao Gu, Mingyuan Zhou, Navdeep Jaitly, Yizhe Zhang.</strong>
+      Continuously Augmented Discrete Diffusion Model for Categorical Generative Modeling.
+      <span class="pub-venue">arXiv (2025)</span>
+    </div>
+
+    <div class="pub-item">
+      <strong>Amin Karimi Monse, Nikhil Bhendawade, Manuel Rafael Ciosici, Dominic Culver, Yizhe Zhang, Irina Belousova.</strong>
+      FS-DFM: Fast and Accurate Long Text Generation with Few-Step Diffusion Language Models.
+      <span class="pub-venue">arXiv (2025)</span>
+    </div>
+
+    <div class="pub-item">
+      <strong>Shansan Gong, Ruixiang Zhang, Huangjie Zheng, Jiatao Gu, Navdeep Jaitly, Lingpeng Kong, Yizhe Zhang.</strong>
+      DiffuCoder: Understanding and Improving Masked Diffusion Models for Code Generation.
+      <span class="pub-venue">arXiv (2025)</span>
+      [<a href="https://arxiv.org/abs/2506.20639">paper</a>]
+    </div>
+
+    <div class="pub-item">
+      <strong>Wei Liu, Ruochen Zhou, Yiyun Deng, Yuzhen Huang, Junteng Liu, Yuntian Deng, Yizhe Zhang, Junxian He.</strong>
+      Learn to Reason Efficiently with Adaptive Length based Reward Shaping.
+      <span class="pub-venue">arXiv (2025)</span>
+    </div>
+
+    <div class="pub-item">
+      <strong>Deepro Choudhury, Sinead Williamson, Adam Goliński, Ning Miao, Freddie Bickford Smith, Michael Kirchhof, Yizhe Zhang, Tom Rainforth.</strong>
+      BED-LLM: Intelligent Information Gathering with LLMs and Bayesian Experimental Design.
+      <span class="pub-venue">arXiv (2025)</span>
+    </div>
+
+    <div class="pub-item">
+      <strong>Yizhe Zhang, Richard Bai, Zijin Gu, Ruixiang Zhang, Jiatao Gu, Emmanuel Abbe, Samy Bengio, Navdeep Jaitly.</strong>
+      What makes the preferred thinking direction for LLM in Multi-choice Questions?
+      <span class="pub-venue">arXiv (2025)</span>
+    </div>
+
+    <div class="pub-item">
+      <strong>Xiaogeng Liu, Zhiyuan Yu, Yizhe Zhang, Ning Zhang, Chaowei Xiao.</strong>
+      Automatic and Universal Prompt Injection Attacks Against Large Language Models.
+      <span class="pub-venue">arXiv (2024)</span>
+    </div>
+  </div>
+</div>
+
+---
+
+<div class="cv-section">
   <div class="section-title">Professional Services</div>
 
   <div class="service-grid">
