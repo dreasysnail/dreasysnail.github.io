@@ -1,0 +1,333 @@
+\documentclass[11pt, a4paper]{moderncv}
+
+% moderncv options - using 'banking' style for more academic look
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+% Margin setup
+\usepackage[a4paper, top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+
+% Increase spacing between lines
+\usepackage{setspace}
+\setstretch{1.1}
+
+% Font setup
+\usepackage{fontspec}
+\usepackage[english]{babel}
+\setmainfont{Latin Modern Roman}
+
+% For highlighting name in publications
+\usepackage{xcolor}
+\newcommand{\myname}[1]{\textbf{#1}}
+\definecolor{venuecolor}{RGB}{0,102,204}
+
+% Counter for publications
+\newcounter{pubcounter}
+\setcounter{pubcounter}{0}
+
+% Personal Information
+\name{Yizhe}{Zhang}
+\address{Redmond, WA, 98052}{}{}
+\email{yizhe.zhang@hotmail.com}
+\phone[mobile]{+1 (919) 536-8858}
+\homepage{dreasysnail.github.io}
+\social[github]{dreasysnail}
+\social[googlescholar]{WDVMfggAAAAJ}
+
+\begin{document}
+
+\makecvtitle
+
+% --- Research Interest ---
+\section{Research Interest}
+\cvitem{}{My recent research focuses on pushing the LLM to gain more intuition and strong generalization, especially in the code domain, regarding: 1) code LLM/agent; 2) long-horizon planning; 3) RAG/reasoning with continuous tokens; 4) text diffusion models; 5) coding-based AI scientist.}
+
+% --- Experience ---
+\section{Professional Experience}
+
+\cvitem{}{%
+\textbf{Staff Research Scientist, Apple, Cupertino, CA} \hfill 05/2022 -- Present\\[0.3em]
+\hspace{1.5em} \textit{Manager: Navdeep Jaitly}\\[0.3em]
+\hspace{1.5em} Using code domain as a testbed for planning and reasoning. Led development of:\\[0.2em]
+\hspace{1.5em} $\circ$ \textbf{DiffuCoder} -- Diffusion-based code generation (700 GitHub stars in one month)\\[0.15em]
+\hspace{1.5em} $\circ$ \textbf{SWE-Gym} -- Code agents training framework with 1.8M+ dataset downloads per month
+}
+
+\vspace{0.4em}
+
+\cvitem{}{%
+\textbf{Research Scientist, Facebook AI, Menlo Park, CA} \hfill 09/2021 -- 05/2022\\[0.3em]
+\hspace{1.5em} \textit{Manager: Yashar Mehdad}\\[0.3em]
+\hspace{1.5em} Worked on Retrieval-Augmented Generation (RAG) and Summarization systems.
+}
+
+\vspace{0.4em}
+
+\cvitem{}{%
+\textbf{Senior Researcher, Microsoft Research, Redmond, WA} \hfill 02/2018 -- 09/2021\\[0.3em]
+\hspace{1.5em} \textit{Manager: Bill Dolan}\\[0.3em]
+\hspace{1.5em} Led development of generative dialogue models:\\[0.2em]
+\hspace{1.5em} $\circ$ \textbf{DialoGPT} -- Open-sourced pretrained chat model with 1,912 citations, 2.4k GitHub stars
+}
+
+% --- Education ---
+\section{Education}
+
+\cvitem{}{%
+\textbf{Ph.D. in Computational Biology, Duke University, Durham, NC} \hfill 08/2013 -- 02/2018\\[0.3em]
+\hspace{1.5em} \textit{Advisor: Prof. Lawrence Carin}\\[0.3em]
+\hspace{1.5em} \textbf{Dissertation:} Efficient and Scalable Markov Chain Monte Carlo Methods\\[0.2em]
+\hspace{1.5em} \textbf{Research Focus:} VAE, GAN, MCMC for text generation
+}
+
+\vspace{0.4em}
+
+\cvitem{}{%
+\textbf{M.Sc. in Statistics, Duke University, Durham, NC} \hfill 08/2015 -- 02/2018
+}
+
+\vspace{0.4em}
+
+\cvitem{}{%
+\textbf{B.Sc. in Physics, Nanjing University, Nanjing, China} \hfill 08/2007 -- 06/2011
+}
+
+% --- Professional Services ---
+\section{Professional Services}
+
+\cvitem{Area Chair}{NeurIPS (since 2020), ICML (since 2022), ICLR (since 2023), ACL (2020-2021), EMNLP (2022), NAACL (2023), AAAI (2018-2021)}
+
+\cvitem{Action Editor}{TMLR (since 2023), ARR (since 2023)}
+
+\cvitem{Organization Committee}{ACL (2020)}
+
+\cvitem{Reviewer}{NeurIPS, ICML, ICLR, ACL, EMNLP, NAACL, AISTATS, AAAI}
+
+% --- Recent Talks ---
+\section{Recent Talks}
+
+\cvitem{}{%
+\textbf{Towards Understanding and Building Intuition for Language Model} \hfill 10/2025\\[0.3em]
+\hspace{1.5em} $\circ$ University of Pennsylvania, Guest lecturer\\[0.15em]
+\hspace{1.5em} $\circ$ BAIR NLP workshop, UC Berkeley, Invited speaker\\[0.15em]
+\hspace{1.5em} $\circ$ University of Washington, NLP seminar, Invited speaker
+}
+
+\vspace{0.3em}
+
+\cvitem{}{%
+\textbf{Bidirectional Language Model} \hfill 07/2025\\[0.3em]
+\hspace{1.5em} $\circ$ Apple Natural Language Understanding workshop, Invited speaker
+}
+% --- Publications ---
+\section{Publications}
+
+\subsection{Selected Preprints}
+
+\cvitem{[1]}{Haoqiang Kang, \myname{Yizhe Zhang}, Nikki Lijing Kuang, Nicklas Majamaki, Navdeep Jaitly, Yi-An Ma, Lianhui Qin. LaDiR: Latent Diffusion Enhances LLMs for Text Reasoning. \textcolor{venuecolor}{arXiv (2025)}}
+
+\cvitem{[2]}{Huangjie Zheng, Shansan Gong, Ruixiang Zhang, Tianrong Chen, Jiatao Gu, Mingyuan Zhou, Navdeep Jaitly, \myname{Yizhe Zhang}. Continuously Augmented Discrete Diffusion Model for Categorical Generative Modeling. \textcolor{venuecolor}{arXiv (2025)}}
+
+\cvitem{[3]}{Amin Karimi Monse, Nikhil Bhendawade, Manuel Rafael Ciosici, Dominic Culver, \myname{Yizhe Zhang}, Irina Belousova. FS-DFM: Fast and Accurate Long Text Generation with Few-Step Diffusion Language Models. \textcolor{venuecolor}{arXiv (2025)}}
+
+\cvitem{[4]}{Shansan Gong, Ruixiang Zhang, Huangjie Zheng, Jiatao Gu, Navdeep Jaitly, Lingpeng Kong, \myname{Yizhe Zhang}. DiffuCoder: Understanding and Improving Masked Diffusion Models for Code Generation. \textcolor{venuecolor}{arXiv (2025)} \textit{[700 GitHub stars in one month, beats Gemini Diffusion and Qwen coder]}}
+
+\cvitem{[5]}{Wei Liu, Ruochen Zhou, Yiyun Deng, Yuzhen Huang, Junteng Liu, Yuntian Deng, \myname{Yizhe Zhang}, Junxian He. Learn to Reason Efficiently with Adaptive Length based Reward Shaping. \textcolor{venuecolor}{arXiv (2025)}}
+
+\cvitem{[6]}{Deepro Choudhury, Sinead Williamson, Adam Goliński, Ning Miao, Freddie Bickford Smith, Michael Kirchhof, \myname{Yizhe Zhang}, Tom Rainforth. BED-LLM: Intelligent Information Gathering with LLMs and Bayesian Experimental Design. \textcolor{venuecolor}{arXiv (2025)}}
+
+\cvitem{[7]}{\myname{Yizhe Zhang}, Richard Bai, Zijin Gu, Ruixiang Zhang, Jiatao Gu, Emmanuel Abbe, Samy Bengio, Navdeep Jaitly. What makes the preferred thinking direction for LLM in Multi-choice Questions? \textcolor{venuecolor}{arXiv (2025)}}
+
+\cvitem{[8]}{Xiaogeng Liu, Zhiyuan Yu, \myname{Yizhe Zhang}, Ning Zhang, Chaowei Xiao. Automatic and Universal Prompt Injection Attacks Against Large Language Models. \textcolor{venuecolor}{arXiv (2024)}}
+
+\vspace{0.5em}
+
+\subsection{Peer-reviewed Conferences and Journals (* equally contributed)}
+
+\cvitem{[9]}{Ruixiang Zhang, Shuangfei Zhai, Jiatao Gu, \myname{Yizhe Zhang}, Huangjie Zheng, Tianrong Chen, Miguel Angel Bautista, Josh Susskind, Navdeep Jaitly. Flexible Language Modeling in Continuous Space with Transformer-based Autoregressive Flows. \textcolor{venuecolor}{NeurIPS (2025)}}
+
+\cvitem{[10]}{Jiayi Pan, Xingyao Wang, Graham Neubig, Navdeep Jaitly, Heng Ji, Alane Suhr, \myname{Yizhe Zhang}. Training Software Engineering Agents and Verifiers with SWE-Gym. \textcolor{venuecolor}{ICML (2025)} \textit{[1.8M+ dataset downloads per month]}}
+
+\cvitem{[11]}{Ruixiang Zhang, Shuangfei Zhai, \myname{Yizhe Zhang}, James Thornton, Zijing Ou, Joshua Susskind, Navdeep Jaitly. Target Concrete Score Matching: A Holistic Framework for Discrete Diffusion. \textcolor{venuecolor}{ICML (2025)}}
+
+\cvitem{[12]}{Yifu Qiu, Varun Embar, \myname{Yizhe Zhang}, Navdeep Jaitly, Shay B. Cohen, Benjamin Han. Eliciting In-context Retrieval and Reasoning for Long-context Large Language Models. \textcolor{venuecolor}{ACL Findings (2025)}}
+
+\cvitem{[13]}{Shansan Gong, Shivam Agarwal, \myname{Yizhe Zhang}, Jiacheng Ye, Lin Zheng, Mukai Li, Chenxin An, Peilin Zhao, Wei Bi, Jiawei Han, et al. Scaling Diffusion Language Models via Adaptation from Autoregressive Models. \textcolor{venuecolor}{ICLR (2024)}}
+
+\cvitem{[14]}{Xingyao Wang, Boxuan Li, Yufan Song, Frank F. Xu, Xiangru Tang, Mingchen Zhuge, Jiayi Pan, Yueqi Song, Bowen Li, Jaskirat Singh, et al. All-hands: An Open Platform for AI Software Developers as Generalist Agents. \textcolor{venuecolor}{ICLR (2024)}}
+
+\cvitem{[15]}{Jiatao Gu, Yuyang Wang, \myname{Yizhe Zhang}, Qihang Zhang, Dinghuai Zhang, Navdeep Jaitly, Josh Susskind, Shuangfei Zhai. DART: Denoising Autoregressive Transformer for Scalable Text-to-Image Generation. \textcolor{venuecolor}{ICLR (2024)}}
+
+\cvitem{[16]}{Guoli Yin, Haoping Bai, Shuang Ma, Feng Nan, Yanchao Sun, Zhaoyang Xu, Shen Ma, Jiarui Lu, Xiang Kong, Aonan Zhang, et al. MMAU: A Holistic Benchmark of Agent Capabilities Across Diverse Domains. \textcolor{venuecolor}{CoRR (2024)}}
+
+\cvitem{[17]}{Jiarui Lu, Thomas Holleis, \myname{Yizhe Zhang}, Bernhard Aumayer, Feng Nan, Felix Bai, Shuang Ma, Shen Ma, Mengyu Li, Guoli Yin, et al. Toolsandbox: A Stateful, Conversational, Interactive Evaluation Benchmark for LLM Tool Use Capabilities. \textcolor{venuecolor}{NAACL (2024)}}
+
+\cvitem{[18]}{Jiatao Gu*, Ying Shen*, Shuangfei Zhai, \myname{Yizhe Zhang}, Navdeep Jaitly, Joshua M. Susskind. Kaleido Diffusion: Improving Conditional Diffusion Models with Autoregressive Latent Modeling. \textcolor{venuecolor}{NeurIPS (2024)}}
+
+\cvitem{[19]}{Yong Lin, Skyler Seto, Maartje Ter Hoeve, Katherine Metcalf, Barry-John Theobald, Xuan Wang, \myname{Yizhe Zhang}, Chen Huang, Tong Zhang. On the Limited Generalization Capability of the Implicit Reward Model Induced by Direct Preference Optimization. \textcolor{venuecolor}{EMNLP Findings (2024)}}
+
+\cvitem{[20]}{Zhuofeng Wu, He Bai, Aonan Zhang, Jiatao Gu, VG Vydiswaran, Navdeep Jaitly, \myname{Yizhe Zhang}. Divide-or-Conquer? Which Part Should You Distill Your LLM? \textcolor{venuecolor}{EMNLP Findings (2024)}}
+
+\cvitem{[21]}{\myname{Yizhe Zhang}*, He Bai*, Ruixiang Zhang*, Jiatao Gu, Shuangfei Zhai, Josh Susskind, Navdeep Jaitly. How Far Are We from Intelligent Visual Deductive Reasoning? \textcolor{venuecolor}{COLM (2024)}}
+
+\cvitem{[22]}{\myname{Yizhe Zhang}, Jiarui Lu, Navdeep Jaitly. The Entity-Deduction Arena: A playground for probing the conversational reasoning and planning capabilities of LLMs. \textcolor{venuecolor}{ACL (2024)}}
+
+\cvitem{[23]}{Pratyush Maini, Skyler Seto, He Bai, David Grangier, \myname{Yizhe Zhang}, Navdeep Jaitly. Rephrasing the web: A recipe for compute and data-efficient language modeling. \textcolor{venuecolor}{ACL (2024)}}
+
+\cvitem{[24]}{Dinghuai Zhang, \myname{Yizhe Zhang}, Jiatao Gu, Ruixiang Zhang, Josh Susskind, Navdeep Jaitly, Shuangfei Zhai. Improving GFlowNets for Text-to-Image Diffusion Alignment. \textcolor{venuecolor}{ICML SPIGM workshop (2024)}}
+
+\cvitem{[25]}{Xingyao Wang, Yangyi Chen, Lifan Yuan, \myname{Yizhe Zhang}, Yunzhu Li, Hao Peng, Heng Ji. Executable code actions elicit better llm agents. \textcolor{venuecolor}{ICML (2024)}}
+
+\cvitem{[26]}{Jiatao Gu, Shuangfei Zhai, \myname{Yizhe Zhang}, Lingjie Liu, Joshua M Susskind. Boot: Data-free distillation of denoising diffusion models with bootstrapping. \textcolor{venuecolor}{ICML (2024)}}
+
+\cvitem{[27]}{Jiatao Gu, Shuangfei Zhai, \myname{Yizhe Zhang}, Joshua M Susskind, Navdeep Jaitly. Matryoshka diffusion models. \textcolor{venuecolor}{ICLR (2023)}}
+
+\cvitem{[28]}{\myname{Yizhe Zhang}, Jiatao Gu, Zhuofeng Wu, Shuangfei Zhai, Joshua Susskind, Navdeep Jaitly. PLANNER: generating diversified paragraph via latent language diffusion model. \textcolor{venuecolor}{NeurIPS (2023)}}
+
+\cvitem{[29]}{Shuangfei Zhai, Tatiana Likhomanenko, Etai Littwin, Dan Busbridge, Jason Ramapuram, \myname{Yizhe Zhang}, Jiatao Gu, Joshua M Susskind. Stabilizing transformer training by preventing attention entropy collapse. \textcolor{venuecolor}{ICML (2023)}}
+
+\cvitem{[30]}{Felix Faltings, Michel Galley, Baolin Peng, Kianté Brantley, Weixin Cai, \myname{Yizhe Zhang}, Jianfeng Gao, Bill Dolan. Interactive text generation. \textcolor{venuecolor}{EMNLP (2023)}}
+
+\cvitem{[31]}{Jiatao Gu, Shuangfei Zhai, \myname{Yizhe Zhang}, Miguel Angel Bautista, Josh Susskind. f-dm: A multi-stage diffusion model via progressive signal transformation. \textcolor{venuecolor}{ICLR (2023)}}
+
+\cvitem{[32]}{Gyuwan Kim, Jinhyuk Lee, Barlas Oguz, Wenhan Xiong, \myname{Yizhe Zhang}, Yashar Mehdad, William Yang Wang. Bridging the training-inference gap for dense phrase retrieval. \textcolor{venuecolor}{EMNLP Findings (2022)}}
+
+\cvitem{[33]}{\myname{Yizhe Zhang}*, Deng Cai*. Linearizing transformer with key-value memory. \textcolor{venuecolor}{EMNLP (2022)}}
+
+\cvitem{[34]}{Tianyu Liu, \myname{Yizhe Zhang}, Chris Brockett, Yi Mao, Zhifang Sui, Weizhu Chen, Bill Dolan. A token-level reference-free hallucination detection benchmark for free-form text generation. \textcolor{venuecolor}{ACL (2022)}}
+
+\cvitem{[35]}{\myname{Yizhe Zhang}, Siqi Sun, Xiang Gao, Yuwei Fang, Chris Brockett, Michel Galley, Jianfeng Gao, Bill Dolan. Joint retrieval and generation training for grounded text generation. \textcolor{venuecolor}{AAAI (2022)}}
+
+\cvitem{[36]}{Zhisong Zhang, \myname{Yizhe Zhang}, Bill Dolan. Towards More Efficient Insertion Transformer with Fractional Positional Encoding. \textcolor{venuecolor}{EACL (2021)}}
+
+\cvitem{[37]}{Jiachang Liu, Dinghan Shen, \myname{Yizhe Zhang}, Bill Dolan, Lawrence Carin, Weizhu Chen. What Makes Good In-Context Examples for GPT-3? \textcolor{venuecolor}{ACL DEELIO workshop (2021)}}
+
+\cvitem{[38]}{Zeqiu Wu, Michel Galley, Chris Brockett, \myname{Yizhe Zhang}, Bill Dolan. Automatic document sketching: Generating drafts from analogous texts. \textcolor{venuecolor}{ACL Findings (2021)}}
+
+\cvitem{[39]}{Jungo Kasai, Hao Peng, \myname{Yizhe Zhang}, Dani Yogatama, Yi Mao, Weizhu Chen, Noah A Smith. Finetuning Pretrained Transformers into RNNs. \textcolor{venuecolor}{EMNLP (2021, Oral Presentation)}}
+
+\cvitem{[40]}{Dianqi Li, \myname{Yizhe Zhang}, Hao Peng, Liqun Chen, Chris Brockett, Ming-Ting Sun, Bill Dolan. Contextualized perturbation for textual adversarial attack. \textcolor{venuecolor}{NAACL (2021)}}
+
+\cvitem{[41]}{Woon Sang Cho, \myname{Yizhe Zhang}, Sudha Rao, Asli Celikyilmaz, Chenyan Xiong, Jianfeng Gao, Mengdi Wang, Bill Dolan. Unsupervised Common Question Generation from Multiple Documents using Reinforced Contrastive Coordinator. \textcolor{venuecolor}{EACL (2021)}}
+
+\cvitem{[42]}{Zeqiu Wu, Michel Galley, Chris Brockett, \myname{Yizhe Zhang}, Xiang Gao, Chris Quirk, Rik Koncel-Kedziorski, Jianfeng Gao, Hannaneh Hajishirzi, Mari Ostendorf, Bill Dolan. A Controllable Model of Grounded Response Generation. \textcolor{venuecolor}{AAAI (2021)}}
+
+\cvitem{[43]}{Ramakanth Pasunuru, Asli Celikyilmaz, Michel Galley, Chenyan Xiong, \myname{Yizhe Zhang}, Mohit Bansal, Jianfeng Gao. Data Augmentation for Abstractive Query-Focused Multi-Document Summarization. \textcolor{venuecolor}{AAAI (2021)}}
+
+\cvitem{[44]}{\myname{Yizhe Zhang}, Xiang Gao, Sungjin Lee, Chris Brockett, Michel Galley, Jianfeng Gao, Bill Dolan. Consistent Dialogue Generation with Self-supervised Feature Learning. \textcolor{venuecolor}{SIGDIAL (2020)}}
+
+\cvitem{[45]}{\myname{Yizhe Zhang}, Guoyin Wang, Chunyuan Li, Zhe Gan, Chris Brockett, Bill Dolan. POINTER: Constrained Text Generation via Insertion-based Generative Pre-training. \textcolor{venuecolor}{EMNLP (2020)}}
+
+\cvitem{[46]}{Xiang Gao, \myname{Yizhe Zhang}, Michel Galley, Chris Brockett, Bill Dolan. Dialogue Response Ranking Training with Large-Scale Human Feedback Data. \textcolor{venuecolor}{EMNLP (2020)}}
+
+\cvitem{[47]}{Chunyuan Li, Xiang Gao, Yuan Li, Xiujun Li, Baolin Peng, \myname{Yizhe Zhang}, Jianfeng Gao. Optimus: Organizing Sentences via Pre-trained Modeling of a Latent Space. \textcolor{venuecolor}{EMNLP (2020)}}
+
+\cvitem{[48]}{Jianqiao Li, Chunyuan Li, Guoyin Wang, Hao Fu, Yuhchen Lin, Liqun Chen, \myname{Yizhe Zhang}, Lawrence Carin. Improving Text Generation with Student-Forcing Optimal Transport. \textcolor{venuecolor}{EMNLP (2020)}}
+
+\cvitem{[49]}{Yu Cheng, Zhe Gan, \myname{Yizhe Zhang}, Oussama Elachqar, Dianqi Li, Jingjing Liu. Contextual Text Style Transfer. \textcolor{venuecolor}{Findings of EMNLP (2020)}}
+
+\cvitem{[50]}{Shuyang Dai, Yu Cheng, \myname{Yizhe Zhang}, Zhe Gan, Jingjing Liu, Lawrence Carin. Contrastively Smoothed Class Alignment for Unsupervised Domain Adaptation. \textcolor{venuecolor}{ACCV (2020)}}
+
+\cvitem{[51]}{Xinnuo Xu, \myname{Yizhe Zhang}, Lars Liden, Sungjin Lee. Datasets and Benchmarks for Task-Oriented Log Dialogue Ranking Task. \textcolor{venuecolor}{Interspeech (2020)}}
+
+\cvitem{[52]}{Siyang Yuan, Ke Bai, Liqun Chen, \myname{Yizhe Zhang}, Chenyang Tao, Chunyuan Li, Guoyin Wang, Ricardo Henao, Lawrence Carin. Weakly supervised cross-domain alignment with optimal transport Task. \textcolor{venuecolor}{BMVC (2020)}}
+
+\cvitem{[53]}{\myname{Yizhe Zhang}, Siqi Sun, Michel Galley, Yen-Chun Chen, Chris Brockett, Xiang Gao, Jianfeng Gao, Jingjing Liu, Bill Dolan. DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation. \textcolor{venuecolor}{demo track, ACL (2020)} \textit{[1,912 citations, 2.4k GitHub stars]}}
+
+\cvitem{[54]}{Yichen Huang*, \myname{Yizhe Zhang}*, Oussama Elachqar, Yu Cheng. INSET: Sentence Infilling with Inter-sentential Generative Pre-training. \textcolor{venuecolor}{ACL (2020)}}
+
+\cvitem{[55]}{Pengyu Cheng, Renqiang Min, Dinghan Shen, Christopher Malon, \myname{Yizhe Zhang}, Yitong Li, Lawrence Carin. Improving Disentangled Text Representation Learning with Information Theoretical Guidance. \textcolor{venuecolor}{ACL (2020)}}
+
+\cvitem{[56]}{Xinjie Fan, \myname{Yizhe Zhang}, Zhendong Wang, Mingyuan Zhou. Adaptive Correlated Monte Carlo for Contextual Categorical Sequence Generation. \textcolor{venuecolor}{ICLR (2020)}}
+
+\cvitem{[57]}{Yuan Li, Chunyuan Li, \myname{Yizhe Zhang}, Xiujun Li, Guoqing Zheng, Lawrence Carin, Jianfeng Gao. Complementary Auxiliary Classifiers for Label-Conditional Text Generation. \textcolor{venuecolor}{AAAI (2020)}}
+
+\cvitem{[58]}{Liqun Chen, Ke Bai, Chenyang Tao, \myname{Yizhe Zhang}, Guoyin Wang, Wenlin Wang, Ricardo Henao, Lawrence Carin. Sequence Generation with Optimal-Transport-Enhanced Reinforcement Learning. \textcolor{venuecolor}{AAAI (2020)}}
+
+\cvitem{[59]}{Xiang Gao, \myname{Yizhe Zhang}, Sungjin Lee, Michel Galley, Chris Brockett, Jianfeng Gao, Bill Dolan. Structuring latent spaces for stylized response generation. \textcolor{venuecolor}{EMNLP (2019)}}
+
+\cvitem{[60]}{Dianqi Li, \myname{Yizhe Zhang}, Zhe Gan, Yu Cheng, Chris Brockett, Ming-Ting Sun, Bill Dolan. Domain Adaptive Text Style Transfer. \textcolor{venuecolor}{EMNLP (2019)}}
+
+\cvitem{[61]}{Xinnuo Xu, \myname{Yizhe Zhang}, Lars Liden, Sungjin Lee. Unsupervised Dialogue Spectrum Generation for Log Dialogue Ranking. \textcolor{venuecolor}{SIGDIAL (2019), Best paper nomination}}
+
+\cvitem{[62]}{Liqun Chen, Guoyin Wang, Chenyang Tao, Dinghan Shen, \myname{Yizhe Zhang}, Lawrence Carin. Improving Textual Network Embedding with Global Attention via Optimal Transport. \textcolor{venuecolor}{ACL (2019)}}
+
+\cvitem{[63]}{Dinghan Shen, Asli Celikyilmaz, \myname{Yizhe Zhang}, Liqun Chen, Xin Wang, Jianfeng Gao, Lawrence Carin. Towards Generating Long and Coherent Text with Multi-Level Latent Variable Models. \textcolor{venuecolor}{ACL (2019)}}
+
+\cvitem{[64]}{Xiang Gao, Sungjin Lee, \myname{Yizhe Zhang}, Chris Brockett, Michel Galley, Jianfeng Gao, Bill Dolan. Jointly Optimizing Diversity and Relevance in Neural Response Generation. \textcolor{venuecolor}{NAACL (2019)}}
+
+\cvitem{[65]}{Liqun Chen, \myname{Yizhe Zhang}, Ruiyi Zhang, Chenyang Tao, Zhe Gan, Haichao Zhang, Bai Li, Dinghan Shen, Changyou Chen, Lawrence Carin. Improving Sequence-to-Sequence Learning via Optimal Transport. \textcolor{venuecolor}{ICLR (2019)}}
+
+\cvitem{[66]}{\myname{Yizhe Zhang}, Michel Galley, Jianfeng Gao, Zhe Gan, Xiujun Li, Chris Brockett, Bill Dolan. Generating Informative and Diverse Conversational Responses via Adversarial Information Maximization. \textcolor{venuecolor}{NeurIPS (2018)}}
+
+\cvitem{[67]}{Liqun Chen, Shuyang Dai, Chenyang Tao, Dinghan Shen, Zhe Gan, Haichao Zhang, \myname{Yizhe Zhang}, Lawrence Carin. Adversarial Text Generation via Feature-Mover's Distance. \textcolor{venuecolor}{NeurIPS (2018)}}
+
+\cvitem{[68]}{Yunchen Pu, Shuyang Dai, \myname{Yizhe Zhang}, Zhe Gan, Lawrence Carin. Multi-Domain Joint Distribution Learning with Generative Adversarial Nets. \textcolor{venuecolor}{ICML (2018)}}
+
+\cvitem{[69]}{Dinghan Shen, Guoyin Wang, Wenlin Wang, Martin Renqiang Min, Qinliang Su, \myname{Yizhe Zhang}, Chunyuan Li, Ricardo Henao, Lawrence Carin. On Simple Word-Embedding-Based Models and Associated Pooling Mechanisms. \textcolor{venuecolor}{ACL (2018)}}
+
+\cvitem{[70]}{Guoyin Wang, Chunyuan Li, Wenlin Wang, \myname{Yizhe Zhang}, Dinghan Shen, Xinyuan Zhang, Ricardo Henao, Lawrence Carin. Joint Embedding of Words and Labels for Text Classification. \textcolor{venuecolor}{ACL (2018)}}
+
+\cvitem{[71]}{Dinghan Shen, \myname{Yizhe Zhang}, Ricardo Henao, Qinliang Su, Lawrence Carin. Deconvolutional Latent-Variable Model for Text Sequence Matching. \textcolor{venuecolor}{AAAI (2018)}}
+
+\cvitem{[72]}{Wenlin Wang, Piyush Rai, Yunchen Pu, Kai Fan, \myname{Yizhe Zhang}, Ricardo Henao, Lawrence Carin. A Flexible Probabilistic Framework for Learning to Predict Unseen Classes. \textcolor{venuecolor}{AAAI (2018)}}
+
+\cvitem{[73]}{Zhe Gan, Liqun Chen, Weiyao Wang, Yunchen Pu, \myname{Yizhe Zhang}, Lawrence Carin. Triangle Generative Adversarial Networks. \textcolor{venuecolor}{NIPS (2017)}}
+
+\cvitem{[74]}{\myname{Yizhe Zhang}, Changyou Chen, Zhe Gan, Lawrence Carin. Stochastic Gradient Monomial Gamma Sampler. \textcolor{venuecolor}{ICML (2017)}}
+
+\cvitem{[75]}{\myname{Yizhe Zhang}, Zhe Gan, Zhi Chen, Lawrence Carin. Adversarial Feature Matching for Text Generation. \textcolor{venuecolor}{ICML (2017)}}
+
+\cvitem{[76]}{\myname{Yizhe Zhang}, Xiangyu Wang, Changyou Chen, Lawrence Carin. Towards Unifying Hamiltonian Monte Carlo and Slice Sampling. \textcolor{venuecolor}{NIPS (2016)}}
+
+\cvitem{[77]}{Changyou Chen, Nan Ding, Chunyuan Li, \myname{Yizhe Zhang}, Lawrence Carin. Distributed Bayesian Learning with Stochastic Gradient MCMC. \textcolor{venuecolor}{NIPS (2016)}}
+
+\cvitem{[78]}{\myname{Yizhe Zhang}, Ricardo Henao, Lawrence Carin. Dynamic Poisson Factor Analysis. \textcolor{venuecolor}{ICDM (2016)}}
+
+\cvitem{[79]}{Kai Fan, \myname{Yizhe Zhang}, Katherine Heller. Triply Stochastic Variational Inference for Non-linear Beta Process Factor Analysis. \textcolor{venuecolor}{ICDM (2016)}}
+
+\cvitem{[80]}{\myname{Yizhe Zhang}, Ricardo Henao, Jianling Zhong, Lawrence Carin, Alexander Hartemink. Learning a Hybrid Architecture for Sequence Regression and Annotation. \textcolor{venuecolor}{AAAI (2016)}}
+
+\cvitem{[81]}{\myname{Yizhe Zhang}, Ricardo Henao, Chunyuan Li, Lawrence Carin. Bayesian Dictionary Learning with Gaussian Processes and Sigmoid Belief Networks. \textcolor{venuecolor}{IJCAI (2016)}}
+
+\cvitem{[82]}{\myname{Yizhe Zhang}, Changyou Chen, Ricardo Henao, Lawrence Carin. Laplacian Hamiltonian Monte Carlo. \textcolor{venuecolor}{ECML (2016)}}
+
+\cvitem{[83]}{\myname{Yizhe Zhang}, Yupeng He, Chaochun Wei. MOST+: a Motif Finding Approach Combining Genomic Sequence and Heterogeneous Genome-wide Signatures. \textcolor{venuecolor}{BMC Genomics (2015)}}
+
+\cvitem{[84]}{Yupeng He, \myname{Yizhe Zhang}, Guangyong Zheng, Chaochun Wei. CRF-based Transcription Factor Binding Site Finding System. \textcolor{venuecolor}{BMC Genomics (2012)}}
+
+\cvitem{[85]}{Jiemeng Liu, Haifeng Wang, Hongxing Yang, \myname{Yizhe Zhang}, Jinfeng Wang, Fangqing Zhao, Ji Qi. Composition-based Classification of Short Metagenomic Sequences Elucidates the Landscapes of Taxonomic and Functional Enrichment of Microorganisms. \textcolor{venuecolor}{Nucleic Acids Research (2012)}}
+
+\vspace{0.5em}
+
+\subsection{Workshop, Demo, and Miscellaneous}
+
+\cvitem{[86]}{\myname{Yizhe Zhang}, Navdeep Jaitly. SAGE: Steering Dialog Generation with Future-Aware State-Action Augmentation. \textcolor{venuecolor}{EMNLP Workshop on NLPerspectives (2025)}}
+
+\cvitem{[87]}{Georgia Gabriela Sampaio, Ruixiang Zhang, Shuangfei Zhai, Jiatao Gu, Josh Susskind, Navdeep Jaitly, \myname{Yizhe Zhang}. TypeScore: A Text Fidelity Metric for Text-to-Image Generative Models. \textcolor{venuecolor}{arXiv (2024)}}
+
+\cvitem{[88]}{Ying Shen, \myname{Yizhe Zhang}, Shuangfei Zhai, Lifu Huang, Joshua M. Susskind, Jiatao Gu. Many-to-Many Image Generation with Auto-Regressive Diffusion Models. \textcolor{venuecolor}{ICML 2024 Workshop on Structured Probabilistic Inference Generative Modeling (2024)}}
+
+\cvitem{[89]}{Tatiana Likhomanenko, Luke Carlson, Richard He Bai, Zijin Gu, Han Tran, Zakaria Aldeneh, \myname{Yizhe Zhang}, Ruixiang Zhang, Huangjie Zheng, Navdeep Jaitly. ChipChat: Low-Latency Cascaded Conversational Agent in MLX. \textcolor{venuecolor}{ASRU demo track (2025)}}
+
+% --- Teaching ---
+\section{Teaching}
+
+\cvitem{Duke}{Advanced Machine Learning (STA571), Instructor: Katherine Heller}
+\cvitem{Duke}{Probabilistic Machine Learning (CS571), Instructor: Cynthia Rudin}
+
+% --- Honors and Awards ---
+\section{Honors and Awards}
+
+\cvitem{2023--Present}{Stanford top 2\% scientists}
+\cvitem{2018}{NeurIPS top 5\% reviewer award}
+\cvitem{2008--2011}{Department Fellowship}
+\cvitem{2012}{National Excellent Graduate Scholarship (top 1\%)}
+\cvitem{Travel Awards}{NIPS (2015, 2016), ICML (2017), ICDM (2016), IJCAI (2016), AAAI (2016)}
+
+% --- Technical Proficiency ---
+\section{Technical Proficiency}
+
+\cvitem{Programming}{PyTorch, TensorFlow, C/C++, Python, Java, Lua, MATLAB, R}
+
+\end{document}

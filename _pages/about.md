@@ -98,7 +98,7 @@ I received my <strong>Ph.D.</strong> and <strong>M.S.</strong> degrees from <a h
 
 <div class="highlight-box">
 <strong>Seeking Research Interns!</strong><br>
-Please send me an <a href="mailto:yizzhang@apple.com">email</a> with your latest CV if you are a senior PhD student working on <strong>LLM, Multiturn Interactive Systems, Information Retrieval, Question Answering, or Generation</strong> and are interested in a research internship at Apple MLR.
+Please send me an <a href="mailto:yizzhang@apple.com">email</a> with your latest CV if you are a senior PhD student working on <strong>text diffusion, continuous token representations, coding LLMs/agent, AI scientist and lookahead training</strong> and are interested in a research internship at Apple MLR.
 </div>
 
 ---
