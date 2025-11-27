@@ -407,6 +407,13 @@ redirect_from:
 
   <div class="selected-pubs">
     <div class="pub-item">
+      <strong>Jie He, Richard He Bai, Sinead Williamson, Jeff Z. Pan, Navdeep Jaitly, Yizhe Zhang.</strong>
+      CLaRa: Bridging Retrieval and Generation with Continuous Latent Reasoning.
+      <span class="pub-venue">arXiv (2025)</span>
+      [<a href="https://arxiv.org/abs/2511.18659">paper</a>]
+    </div>
+
+    <div class="pub-item">
       <strong>Haoqiang Kang, Yizhe Zhang, Nikki Lijing Kuang, Nicklas Majamaki, Navdeep Jaitly, Yi-An Ma, Lianhui Qin.</strong>
       LaDiR: Latent Diffusion Enhances LLMs for Text Reasoning.
       <span class="pub-venue">arXiv (2025)</span>

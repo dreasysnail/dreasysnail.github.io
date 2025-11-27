@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.4.18)  31 OCT 2025 15:19
+This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.4.18)  27 NOV 2025 15:20
  restricted system commands enabled.
 **cv_yizhezhang.tex
 (./cv_yizhezhang.tex
@@ -1980,10 +1980,10 @@ Underfull \hbox (badness 10000) detected at line 125
 
 LaTeX Font Warning: Font shape `TU/LatinModernRoman(0)/sb/n' undefined
 (Font)              using `TU/LatinModernRoman(0)/b/n' instead on input line 14
-5.
+7.
 
 
-Underfull \hbox (badness 10000) detected at line 145
+Underfull \hbox (badness 10000) detected at line 147
 \TU/LatinModernRoman(0)/m/n/8 .
  []
 
@@ -2011,10 +2011,10 @@ Overfull \hbox (0.50743pt too wide) has occurred while \output is active
 
 LaTeX Font Warning: Font shape `TU/LatinModernRoman(0)/sb/n' undefined
 (Font)              using `TU/LatinModernRoman(0)/b/n' instead on input line 30
-3.
+5.
 
 
-Underfull \hbox (badness 10000) detected at line 303
+Underfull \hbox (badness 10000) detected at line 305
 \TU/LatinModernRoman(0)/m/n/8 .
  []
 
@@ -2042,7 +2042,7 @@ Here is how much of LuaTeX's memory you used:
  594 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 8 attribute, 83 glue_spec,
  5 attribute_list, 2 write nodes
-   avail lists: 2:981,3:324,4:273,5:487,6:100,7:8493,8:1,9:489,10:6,11:524
+   avail lists: 2:981,3:324,4:270,5:484,6:100,7:8465,8:1,9:489,10:6,11:522
  49832 multiletter control sequences out of 65536+600000
  56 fonts using 5111959 bytes
  129i,13n,116p,1009b,1120s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2058,7 +2058,7 @@ f></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman10-regular
 .otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-bold
 .otf></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb>
-Output written on cv_yizhezhang.pdf (7 pages, 101817 bytes).
+Output written on cv_yizhezhang.pdf (7 pages, 102146 bytes).
 
 PDF statistics: 179 PDF objects out of 1000 (max. 8388607)
  137 compressed objects within 2 object streams
