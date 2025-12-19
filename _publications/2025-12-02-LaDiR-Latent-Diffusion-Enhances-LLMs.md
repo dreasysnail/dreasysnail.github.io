@@ -6,6 +6,8 @@ date: 2025-12-01
 venue: 'arXiv preprint'
 paperurl: 'https://arxiv.org/abs/2510.04573'
 citation: 'Haoqiang Kang, <b>Yizhe Zhang</b>, Nikki Lijing Kuang, Nicklas Majamaki, Navdeep Jaitly, Yi-An Ma, Lianhui Qin'
+topics: ['rag-reasoning', 'text-diffusion']
+description: "Latent diffusion enhances LLM reasoning with continuous thought representations"
 ---
 
 [Download paper here](https://arxiv.org/abs/2510.04573)

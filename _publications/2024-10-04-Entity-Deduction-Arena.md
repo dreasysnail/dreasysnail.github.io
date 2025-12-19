@@ -6,6 +6,8 @@ date: 2024-10-04
 venue: 'ACL'
 paperurl: 'https://arxiv.org/abs/2310.01468'
 citation: '<b>Yizhe Zhang</b>, Jiarui Lu, Navdeep Jaitly'
+topics: ['long-horizon-planning']
+description: "Conversational reasoning and planning benchmark for probing LLM capabilities"
 ---
 
 [Download paper here](https://arxiv.org/abs/2310.01468)

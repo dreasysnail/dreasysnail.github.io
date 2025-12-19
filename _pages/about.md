@@ -48,11 +48,24 @@ redirect_from:
   border-left: 3px solid #667eea;
   transition: transform 0.2s, box-shadow 0.2s;
   font-size: 0.95em;
+  cursor: pointer;
 }
 
 .research-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+}
+
+.research-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.research-card-link:hover .research-card {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(102, 126, 234, 0.25);
+  border-left: 3px solid #52adc8;
 }
 
 .research-card strong {
@@ -108,30 +121,40 @@ Please send me an <a href="mailto:yizzhang@apple.com">email</a> with your latest
 My recent research focuses on **pushing LLMs to gain more intuition and strong generalization**, especially in the **code domain**:
 
 <div class="research-topics">
-  <div class="research-card">
-    <strong>Code LLM & Agents</strong>
-    Building intelligent coding assistants and autonomous agents that understand and generate code
-  </div>
+  <a href="/publications/#code-llm-agents" class="research-card-link">
+    <div class="research-card">
+      <strong>Code LLM & Agents</strong>
+      Building intelligent coding assistants and autonomous agents that understand and generate code
+    </div>
+  </a>
 
-  <div class="research-card">
-    <strong>Long-Horizon Planning</strong>
-    Enabling LLMs to perform complex, multi-step reasoning and planning over extended sequences
-  </div>
+  <a href="/publications/#long-horizon-planning" class="research-card-link">
+    <div class="research-card">
+      <strong>Long-Horizon Planning</strong>
+      Enabling LLMs to perform complex, multi-step reasoning and planning over extended sequences
+    </div>
+  </a>
 
-  <div class="research-card">
-    <strong>RAG & Reasoning with Continuous Tokens</strong>
-    Retrieval-augmented generation and reasoning systems using continuous token representations
-  </div>
+  <a href="/publications/#rag-reasoning" class="research-card-link">
+    <div class="research-card">
+      <strong>RAG & Reasoning with Continuous Tokens</strong>
+      Retrieval-augmented generation and reasoning systems using continuous token representations
+    </div>
+  </a>
 
-  <div class="research-card">
-    <strong>Text Diffusion Models</strong>
-    Advancing non-autoregressive generation through diffusion-based approaches
-  </div>
+  <a href="/publications/#text-diffusion" class="research-card-link">
+    <div class="research-card">
+      <strong>Text Diffusion Models</strong>
+      Advancing non-autoregressive generation through diffusion-based approaches
+    </div>
+  </a>
 
-  <div class="research-card">
-    <strong>Coding-Based AI Scientist</strong>
-    Developing AI systems that can autonomously discover knowledge through code
-  </div>
+  <a href="/publications/#coding-ai-scientist" class="research-card-link">
+    <div class="research-card">
+      <strong>Coding-Based AI Scientist</strong>
+      Developing AI systems that can autonomously discover knowledge through code
+    </div>
+  </a>
 </div>
 
 ---
