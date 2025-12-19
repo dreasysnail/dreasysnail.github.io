@@ -6,6 +6,8 @@ date: 2024-10-03
 venue: 'ICLR'
 paperurl: 'https://arxiv.org/abs/2410.17891'
 citation: 'Shansan Gong, Shivam Agarwal, <b>Yizhe Zhang</b>, Jiacheng Ye, Lin Zheng, Mukai Li, Chenxin An, Peilin Zhao, Wei Bi, Jiawei Han, et al.'
+topics: ['text-diffusion']
+description: "Efficiently scaling diffusion LMs by adapting pretrained AR models"
 ---
 
 [Download paper here](https://arxiv.org/abs/2410.17891)

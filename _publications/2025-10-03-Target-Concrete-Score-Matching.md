@@ -6,6 +6,8 @@ date: 2025-10-03
 venue: 'ICML'
 paperurl: 'https://arxiv.org/abs/2504.16431'
 citation: 'Ruixiang Zhang, Shuangfei Zhai, <b>Yizhe Zhang</b>, James Thornton, Zijing Ou, Joshua Susskind, Navdeep Jaitly'
+topics: ['text-diffusion']
+description: "Unified theoretical framework for discrete diffusion models"
 ---
 
 [Download paper here](https://arxiv.org/abs/2504.16431)

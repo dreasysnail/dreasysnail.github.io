@@ -128,7 +128,6 @@ You can also find my publication list from <u><a href="https://scholar.google.co
   <div class="topic-description">
     Building intelligent coding assistants and autonomous agents that understand and generate code
   </div>
-
   {% assign code_pubs = site.publications | where_exp: "pub", "pub.topics contains 'code-llm-agents'" | sort: "date" | reverse %}
   {% for post in code_pubs %}
     {% include archive-single.html %}
@@ -144,7 +143,6 @@ You can also find my publication list from <u><a href="https://scholar.google.co
   <div class="topic-description">
     Enabling LLMs to perform complex, multi-step reasoning and planning over extended sequences
   </div>
-
   {% assign planning_pubs = site.publications | where_exp: "pub", "pub.topics contains 'long-horizon-planning'" | sort: "date" | reverse %}
   {% for post in planning_pubs %}
     {% include archive-single.html %}
@@ -160,7 +158,6 @@ You can also find my publication list from <u><a href="https://scholar.google.co
   <div class="topic-description">
     Retrieval-augmented generation and reasoning systems using continuous token representations
   </div>
-
   {% assign rag_pubs = site.publications | where_exp: "pub", "pub.topics contains 'rag-reasoning'" | sort: "date" | reverse %}
   {% for post in rag_pubs %}
     {% include archive-single.html %}
@@ -176,7 +173,6 @@ You can also find my publication list from <u><a href="https://scholar.google.co
   <div class="topic-description">
     Advancing non-autoregressive generation through diffusion-based approaches
   </div>
-
   {% assign diffusion_pubs = site.publications | where_exp: "pub", "pub.topics contains 'text-diffusion'" | sort: "date" | reverse %}
   {% for post in diffusion_pubs %}
     {% include archive-single.html %}
@@ -192,7 +188,6 @@ You can also find my publication list from <u><a href="https://scholar.google.co
   <div class="topic-description">
     Developing AI systems that can autonomously discover knowledge through code
   </div>
-
   {% assign scientist_pubs = site.publications | where_exp: "pub", "pub.topics contains 'coding-ai-scientist'" | sort: "date" | reverse %}
   {% for post in scientist_pubs %}
     {% include archive-single.html %}
