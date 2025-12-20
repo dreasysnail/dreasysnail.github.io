@@ -14,4 +14,12 @@ abstract: "Diffusion large language models (dLLMs) are compelling alternatives t
 
 [Download paper here](https://arxiv.org/abs/2506.20639)
 
-Recommended citation: Shansan Gong, Ruixiang Zhang, Huangjie Zheng, Jiatao Gu, Navdeep Jaitly, Lingpeng Kong, *Yizhe Zhang*
+Recommended citation:
+```bibtex
+@article{gong2025diffucoder,
+  title={DiffuCoder: Understanding and Improving Masked Diffusion Models for Code Generation},
+  author={Gong, Shansan and Zhang, Ruixiang and Zheng, Huangjie and Gu, Jiatao and Jaitly, Navdeep and Kong, Lingpeng and Zhang, Yizhe},
+  journal={arXiv preprint arXiv:2506.20639},
+  year={2025}
+}
+```

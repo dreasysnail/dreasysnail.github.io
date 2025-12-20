@@ -13,4 +13,12 @@ abstract: "Large Language Models (LLMs) demonstrate reasoning through chain-of-t
 
 [Download paper here](https://arxiv.org/abs/2510.04573)
 
-Recommended citation: Haoqiang Kang, *Yizhe Zhang*, Nikki Lijing Kuang, Nicklas Majamaki, Navdeep Jaitly, Yi-An Ma, Lianhui Qin
+Recommended citation:
+```bibtex
+@article{kang2025ladir,
+  title={LaDiR: Latent Diffusion Enhances LLMs for Text Reasoning},
+  author={Kang, Haoqiang and Zhang, Yizhe and Kuang, Nikki Lijing and Majamaki, Nicklas and Jaitly, Navdeep and Ma, Yi-An and Qin, Lianhui},
+  journal={arXiv preprint arXiv:2510.04573},
+  year={2025}
+}
+```

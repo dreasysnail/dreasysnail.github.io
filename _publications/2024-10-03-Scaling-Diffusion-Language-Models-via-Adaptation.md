@@ -14,4 +14,12 @@ abstract: "Diffusion Language Models (DLMs) have emerged as a promising new para
 
 [Download paper here](https://arxiv.org/abs/2410.17891)
 
-Recommended citation: Shansan Gong, Shivam Agarwal, *Yizhe Zhang*, Jiacheng Ye, Lin Zheng, Mukai Li, Chenxin An, Peilin Zhao, Wei Bi, Jiawei Han, et al.
+Recommended citation:
+```bibtex
+@inproceedings{gong2024diffullama,
+  title={Scaling Diffusion Language Models via Adaptation from Autoregressive Models},
+  author={Gong, Shansan and Agarwal, Shivam and Zhang, Yizhe and Ye, Jiacheng and Zheng, Lin and Li, Mukai and An, Chenxin and Zhao, Peilin and Bi, Wei and Han, Jiawei and others},
+  booktitle={Proceedings of the International Conference on Learning Representations (ICLR)},
+  year={2024}
+}
+```

@@ -14,4 +14,12 @@ abstract: "We present SEAlign, an alignment framework that addresses the gap bet
 
 [Download paper here](https://arxiv.org/abs/2503.18455)
 
-Recommended citation: Jiayi Pan, Xingyao Wang, Graham Neubig, Navdeep Jaitly, Heng Ji, Alane Suhr, *Yizhe Zhang*
+Recommended citation:
+```bibtex
+@inproceedings{pan2025swegym,
+  title={Training Software Engineering Agents and Verifiers with SWE-Gym},
+  author={Pan, Jiayi and Wang, Xingyao and Neubig, Graham and Jaitly, Navdeep and Ji, Heng and Suhr, Alane and Zhang, Yizhe},
+  booktitle={Proceedings of the International Conference on Machine Learning (ICML)},
+  year={2025}
+}
+```

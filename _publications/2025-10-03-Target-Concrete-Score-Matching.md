@@ -13,4 +13,12 @@ abstract: "We present Target Concrete Score Matching (TCSM), a novel training ob
 
 [Download paper here](https://arxiv.org/abs/2504.16431)
 
-Recommended citation: Ruixiang Zhang, Shuangfei Zhai, *Yizhe Zhang*, James Thornton, Zijing Ou, Joshua Susskind, Navdeep Jaitly
+Recommended citation:
+```bibtex
+@inproceedings{zhang2025tcsm,
+  title={Target Concrete Score Matching: A Holistic Framework for Discrete Diffusion},
+  author={Zhang, Ruixiang and Zhai, Shuangfei and Zhang, Yizhe and Thornton, James and Ou, Zijing and Susskind, Joshua and Jaitly, Navdeep},
+  booktitle={Proceedings of the International Conference on Machine Learning (ICML)},
+  year={2025}
+}
+```

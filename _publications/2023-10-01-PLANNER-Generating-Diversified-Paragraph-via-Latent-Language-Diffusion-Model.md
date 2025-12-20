@@ -14,4 +14,12 @@ abstract: "Autoregressive models for text sometimes generate repetitive and low-
 
 [Download paper here](https://arxiv.org/abs/2306.02531)
 
-Recommended citation: *Yizhe Zhang*, Jiatao Gu, Zhuofeng Wu, Shuangfei Zhai, Joshua Susskind, Navdeep Jaitly
+Recommended citation:
+```bibtex
+@inproceedings{zhang2023planner,
+  title={PLANNER: Generating Diversified Paragraph via Latent Language Diffusion Model},
+  author={Zhang, Yizhe and Gu, Jiatao and Wu, Zhuofeng and Zhai, Shuangfei and Susskind, Joshua and Jaitly, Navdeep},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2023}
+}
+```
