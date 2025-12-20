@@ -162,6 +162,73 @@ author_profile: true
   color: #555;
   font-size: 0.95em;
 }
+
+/* Page links styling for individual publication pages */
+.page__links {
+  margin: 20px 0;
+}
+
+.page__links .btn {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9em;
+  transition: all 0.2s;
+}
+
+.btn--primary {
+  background: #667eea;
+  color: white;
+}
+
+.btn--primary:hover {
+  background: #5568d3;
+  color: white;
+}
+
+.btn--success {
+  background: #28a745;
+  color: white;
+}
+
+.btn--success:hover {
+  background: #218838;
+  color: white;
+}
+
+.btn--info {
+  background: #17a2b8;
+  color: white;
+}
+
+.btn--info:hover {
+  background: #138496;
+  color: white;
+}
+
+.btn--warning {
+  background: #ffc107;
+  color: #333;
+}
+
+.btn--warning:hover {
+  background: #e0a800;
+  color: #333;
+}
+
+.btn--inverse {
+  background: #343a40;
+  color: white;
+}
+
+.btn--inverse:hover {
+  background: #23272b;
+  color: white;
+}
 </style>
 
 You can also find my publication list from <u><a href="https://scholar.google.com/citations?user=WDVMfggAAAAJ&hl=en">my Google Scholar profile</a>.</u>

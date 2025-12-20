@@ -26,7 +26,20 @@ layout: default
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
-          {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+          {% if page.title %}
+          <h1 class="page__title" itemprop="headline">
+            {{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}
+            {% if page.code contains "github.com" %}
+              {% assign code_parts = page.code | split: "github.com/" %}
+              {% assign repo_path = code_parts[1] | split: "/" %}
+              {% assign owner = repo_path[0] %}
+              {% assign repo = repo_path[1] %}
+              <a href="{{page.code}}" target="_blank" style="text-decoration: none;">
+                <img src="https://img.shields.io/github/stars/{{owner}}/{{repo}}?style=social" alt="GitHub stars" style="vertical-align: middle; margin-left: 10px;">
+              </a>
+            {% endif %}
+          </h1>
+          {% endif %}
           {% if page.read_time %}
             <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
@@ -48,7 +61,27 @@ layout: default
         {% elsif page.citation %}
           <p>Recommended citation: {{ page.citation }} </p>
         {% endif %}
-    
+
+        {% if page.code or page.bibtex or page.data or page.paperurl or page.slides %}
+        <p class="page__links">
+          {% if page.paperurl %}
+          <a href="{{ page.paperurl }}" class="btn btn--primary">📄 Paper</a>
+          {% endif %}
+          {% if page.code %}
+          <a href="{{ page.code }}" class="btn btn--success">💻 Code</a>
+          {% endif %}
+          {% if page.bibtex %}
+          <a href="{{ page.bibtex }}" class="btn btn--info">📚 BibTeX</a>
+          {% endif %}
+          {% if page.data %}
+          <a href="{{ page.data }}" class="btn btn--warning">📊 Data</a>
+          {% endif %}
+          {% if page.slides %}
+          <a href="{{ page.slides }}" class="btn btn--inverse">📊 Slides</a>
+          {% endif %}
+        </p>
+        {% endif %}
+
         </header>
       {% endunless %}
 

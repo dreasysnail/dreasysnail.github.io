@@ -28,6 +28,15 @@
       {% else %}
       <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
+      {% if post.code contains "github.com" %}
+        {% assign code_parts = post.code | split: "github.com/" %}
+        {% assign repo_path = code_parts[1] | split: "/" %}
+        {% assign owner = repo_path[0] %}
+        {% assign repo = repo_path[1] %}
+        <a href="{{post.code}}" target="_blank" style="text-decoration: none;">
+          <img src="https://img.shields.io/github/stars/{{owner}}/{{repo}}?style=social" alt="GitHub stars" style="vertical-align: middle; margin-left: 8px;">
+        </a>
+      {% endif %}
     </div>
 
     {% if post.read_time %}
@@ -58,6 +67,15 @@
 
       {% if post.code %}
       [ <a href="{{post.code}}">code</a> ]
+      {% if post.code contains "github.com" %}
+        {% assign code_parts = post.code | split: "github.com/" %}
+        {% assign repo_path = code_parts[1] | split: "/" %}
+        {% assign owner = repo_path[0] %}
+        {% assign repo = repo_path[1] %}
+        <a href="{{post.code}}" target="_blank">
+          <img src="https://img.shields.io/github/stars/{{owner}}/{{repo}}?style=social" alt="GitHub stars" style="vertical-align: middle; margin-left: 5px;">
+        </a>
+      {% endif %}
       {% endif %}
 
       {% if post.bibtex %}
