@@ -7,7 +7,9 @@ venue: 'ICML'
 paperurl: 'https://arxiv.org/abs/2503.18455'
 citation: 'Jiayi Pan, Xingyao Wang, Graham Neubig, Navdeep Jaitly, Heng Ji, Alane Suhr, <b>Yizhe Zhang</b>'
 topics: ['code-llm-agents']
-description: "1.8M+ dataset downloads per month - Training framework for software engineering agents with real-world GitHub tasks"
+description: "602 GitHub stars - Training framework for software engineering agents with real-world GitHub tasks"
+code: 'https://github.com/SWE-Gym/SWE-Gym'
+abstract: "We present SEAlign, an alignment framework that addresses the gap between code generation models and real-world software engineering tasks. The framework leverages the unique characteristics of software engineering processes, including high-quality workflow steps, to enhance model capabilities. Our approach employs Monte Carlo Tree Search for multi-step decision processes and preference optimization, achieving state-of-the-art results on HumanEvalFix, SWE-Bench-Lite, and SWE-Bench-Verified benchmarks."
 ---
 
 [Download paper here](https://arxiv.org/abs/2503.18455)

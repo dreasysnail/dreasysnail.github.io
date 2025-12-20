@@ -7,7 +7,9 @@ venue: 'ICLR'
 paperurl: 'https://arxiv.org/abs/2410.17891'
 citation: 'Shansan Gong, Shivam Agarwal, <b>Yizhe Zhang</b>, Jiacheng Ye, Lin Zheng, Mukai Li, Chenxin An, Peilin Zhao, Wei Bi, Jiawei Han, et al.'
 topics: ['text-diffusion']
-description: "Efficiently scaling diffusion LMs by adapting pretrained AR models"
+description: "Convert GPT2 and LLaMA (127M-7B) to diffusion models competitive with AR counterparts"
+code: 'https://github.com/HKUNLP/DiffuLLaMA'
+abstract: "Diffusion Language Models (DLMs) have emerged as a promising new paradigm for text generative modeling, potentially addressing limitations of autoregressive (AR) models. We demonstrate how to convert existing autoregressive models (GPT2 and LLaMA, ranging from 127M to 7B parameters) into diffusion models called DiffuGPT and DiffuLLaMA. Using less than 200B tokens, we achieve models competitive with their autoregressive counterparts while enabling unique capabilities like fill-in-the-middle generation without prompt reordering."
 ---
 
 [Download paper here](https://arxiv.org/abs/2410.17891)
