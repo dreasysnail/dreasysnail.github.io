@@ -3,7 +3,7 @@ title: "DiffuCoder: Understanding and Improving Masked Diffusion Models for Code
 collection: publications
 permalink: /publication/2025-12-01-DiffuCoder
 date: 2025-12-01
-venue: 'arXiv preprint'
+venue: 'ICLR 2026'
 paperurl: 'https://arxiv.org/abs/2506.20639'
 citation: 'Shansan Gong, Ruixiang Zhang, Huangjie Zheng, Jiatao Gu, Navdeep Jaitly, Lingpeng Kong, <b>Yizhe Zhang</b>'
 topics: ['code-llm-agents', 'text-diffusion']
