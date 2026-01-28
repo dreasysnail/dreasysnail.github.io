@@ -24,6 +24,30 @@ redirect_from:
   font-weight: bold;
 }
 
+.news-box {
+  background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 25px 0;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.news-box a {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.news-box ul {
+  margin: 10px 0 0 0;
+  padding-left: 20px;
+}
+
+.news-box li {
+  margin: 5px 0;
+}
+
 .section-heading {
   font-size: 1.5em;
   font-weight: 700;
@@ -105,6 +129,17 @@ I am a <strong>Staff Research Scientist</strong> at <a href="https://machinelear
 
 I received my <strong>Ph.D.</strong> and <strong>M.S.</strong> degrees from <a href="https://gradschool.duke.edu">Duke University</a>. Before that, I received my <strong>B.Sc. degree in Physics</strong> from <a href="http://dii.nju.edu.cn/kuangym/?lang=en">Nanjing University</a>, Kuang Yaming Honors School, in 2011.
 
+</div>
+
+---
+
+<div class="section-heading">News</div>
+
+**[Jan 2026] 6 Papers Accepted to ICLR 2026:** Our work on diffusion-based language models continues to advance, covering masked diffusion for code generation ([DiffuCoder](https://arxiv.org/abs/2506.20639)), latent diffusion for text reasoning ([LaDiR](https://arxiv.org/abs/2510.04573)), few-step diffusion for long text generation ([FS-DFM](https://arxiv.org/abs/2509.20624)), continuous augmentation for discrete diffusion ([CADD](https://arxiv.org/abs/2510.01329)), adaptive reward shaping for efficient reasoning ([LASER](https://arxiv.org/abs/2505.15612)), and Bayesian experimental design with LLMs ([BED-LLM](https://arxiv.org/abs/2508.21184)).
+
+<div class="news-box">
+<strong>[Dec 2025] CLaRa Released!</strong> <a href="https://github.com/apple/ml-clara">GitHub</a> <img src="https://img.shields.io/github/stars/apple/ml-clara?style=social" alt="GitHub stars" style="vertical-align: middle; margin-left: 5px;"><br>
+CLaRa bridges retrieval and generation with continuous latent reasoning.
 </div>
 
 ---
