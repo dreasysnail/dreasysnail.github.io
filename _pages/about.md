@@ -142,6 +142,11 @@ I received my <strong>Ph.D.</strong> and <strong>M.S.</strong> degrees from <a h
 CLaRa bridges retrieval and generation with continuous latent reasoning.
 </div>
 
+<div class="news-box">
+<strong>[Jul 2025] DiffuCoder Released!</strong> <a href="https://github.com/apple/ml-diffucoder">GitHub</a> <img src="https://img.shields.io/github/stars/apple/ml-diffucoder?style=social" alt="GitHub stars" style="vertical-align: middle; margin-left: 5px;"><br>
+Masked diffusion for code generation with Coupled-GRPO, achieving +4.4% on EvalPlus.
+</div>
+
 ---
 
 <div class="highlight-box">
