@@ -24,28 +24,54 @@ redirect_from:
   font-weight: bold;
 }
 
-.news-box {
-  background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+.news-items {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.news-item {
+  background: #f8f9fa;
   padding: 20px;
-  border-radius: 10px;
-  margin: 25px 0;
+  border-radius: 8px;
+  border-left: 3px solid #52adc8;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.news-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(82, 173, 200, 0.15);
+  border-left: 3px solid #667eea;
+}
+
+.news-date-badge {
+  display: inline-block;
+  background: #52adc8;
   color: white;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  padding: 4px 12px;
+  border-radius: 15px;
+  font-size: 0.85em;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
 
-.news-box a {
-  color: #fff;
+.news-item strong {
+  font-size: 1.05em;
+  color: #2c3e50;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.news-item a {
+  color: #52adc8;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.news-item a:hover {
   text-decoration: underline;
-  font-weight: bold;
-}
-
-.news-box ul {
-  margin: 10px 0 0 0;
-  padding-left: 20px;
-}
-
-.news-box li {
-  margin: 5px 0;
 }
 
 .section-heading {
@@ -135,18 +161,30 @@ I received my <strong>Ph.D.</strong> and <strong>M.S.</strong> degrees from <a h
 
 <div class="section-heading">News</div>
 
-**[Jan 2026] 6 Papers Accepted to ICLR 2026:** Our work on diffusion-based language models continues to advance, covering masked diffusion for code generation ([DiffuCoder](https://arxiv.org/abs/2506.20639)), latent diffusion for text reasoning ([LaDiR](https://arxiv.org/abs/2510.04573)), few-step diffusion for long text generation ([FS-DFM](https://arxiv.org/abs/2509.20624)), continuous augmentation for discrete diffusion ([CADD](https://arxiv.org/abs/2510.01329)), adaptive reward shaping for efficient reasoning ([LASER](https://arxiv.org/abs/2505.15612)), and Bayesian experimental design with LLMs ([BED-LLM](https://arxiv.org/abs/2508.21184)).
+<div class="news-items">
+  <div class="news-item">
+    <div class="news-date-badge">Feb 2026</div>
+    <strong>LaDi-RL Released</strong>
+    Latent reasoning + RL achieving 20.5 on AIME25 and 52.7 on LCB v6 for an 8B model with 2x faster reasoning. Surprisingly, RL for latent reasoning doesn't suffer from entropy/diversity collapse! <a href="https://arxiv.org/abs/2602.01705">Paper</a>
+  </div>
 
-**[Feb 2026] LaDi-RL Released:** Latent reasoning + RL achieving 20.5 on AIME25 and 52.7 on LCB v6 for an 8B model with 2x faster reasoning. Surprisingly, RL for latent reasoning doesn't suffer from entropy/diversity collapse! [Paper](https://arxiv.org/abs/2602.01705)
+  <div class="news-item">
+    <div class="news-date-badge">Jan 2026</div>
+    <strong>6 Papers Accepted to ICLR 2026</strong>
+    Our work on diffusion-based language models continues to advance, covering masked diffusion for code generation (<a href="https://arxiv.org/abs/2506.20639">DiffuCoder</a>), latent diffusion for text reasoning (<a href="https://arxiv.org/abs/2510.04573">LaDiR</a>), few-step diffusion for long text generation (<a href="https://arxiv.org/abs/2509.20624">FS-DFM</a>), continuous augmentation for discrete diffusion (<a href="https://arxiv.org/abs/2510.01329">CADD</a>), adaptive reward shaping for efficient reasoning (<a href="https://arxiv.org/abs/2505.15612">LASER</a>), and Bayesian experimental design with LLMs (<a href="https://arxiv.org/abs/2508.21184">BED-LLM</a>).
+  </div>
 
-<div class="news-box">
-<strong>[Dec 2025] CLaRa Released!</strong> <a href="https://github.com/apple/ml-clara">GitHub</a> <img src="https://img.shields.io/github/stars/apple/ml-clara?style=social" alt="GitHub stars" style="vertical-align: middle; margin-left: 5px;"><br>
-CLaRa bridges retrieval and generation with continuous latent reasoning. 1k+ GitHub stars!
-</div>
+  <div class="news-item">
+    <div class="news-date-badge">Dec 2025</div>
+    <strong>CLaRa Released</strong>
+    CLaRa bridges retrieval and generation with continuous latent reasoning. 1k+ GitHub stars! <a href="https://github.com/apple/ml-clara">GitHub</a> <img src="https://img.shields.io/github/stars/apple/ml-clara?style=social" alt="GitHub stars" style="vertical-align: middle; margin-left: 5px;">
+  </div>
 
-<div class="news-box">
-<strong>[Jul 2025] DiffuCoder Released!</strong> <a href="https://github.com/apple/ml-diffucoder">GitHub</a> <img src="https://img.shields.io/github/stars/apple/ml-diffucoder?style=social" alt="GitHub stars" style="vertical-align: middle; margin-left: 5px;"><br>
-Masked diffusion for code generation with Coupled-GRPO, achieving +4.4% on EvalPlus.
+  <div class="news-item">
+    <div class="news-date-badge">Jul 2025</div>
+    <strong>DiffuCoder Released</strong>
+    Masked diffusion for code generation with Coupled-GRPO, achieving +4.4% on EvalPlus. <a href="https://github.com/apple/ml-diffucoder">GitHub</a> <img src="https://img.shields.io/github/stars/apple/ml-diffucoder?style=social" alt="GitHub stars" style="vertical-align: middle; margin-left: 5px;">
+  </div>
 </div>
 
 ---
