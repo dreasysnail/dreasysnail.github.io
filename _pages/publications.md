@@ -340,6 +340,18 @@ You can also find my publication list from <u><a href="https://scholar.google.co
 </div>
 
 <div class="pub-year-section">
+<h2 class="year-title">2026</h2>
+{% for post in site.publications reversed %}
+  {% capture year %}{{ post.date | date:"%Y" }}{% endcapture %}
+  {% capture month %}{{ post.date | date:"%m" }}{% endcapture %}
+  {% capture day %}{{ post.date | date:"%d" }}{% endcapture %}
+  {% if year == "2026" and month != "12" and day != "01" %}
+  {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+</div>
+
+<div class="pub-year-section">
 <h2 class="year-title">2025</h2>
 {% for post in site.publications reversed %}
   {% capture year %}{{ post.date | date:"%Y" }}{% endcapture %}

@@ -1,166 +1,145 @@
 ---
 name: addpaper
-description: Add new papers to CV and homepage, compile PDF, and push to GitHub
+description: Add new papers to CV, homepage, and publications page, then compile and push
 ---
 
 # Add Paper Skill
 
-This skill automates adding new research papers to your CV and homepage.
+Automates adding research papers to your academic website.
 
 ## Input
 
-Takes one or more paper links (arXiv URLs, conference URLs, or paper metadata) as input.
+Paper links (arXiv URLs, DOIs) or paper metadata with:
+- Key results/metrics (e.g., "20.5 on AIME25")
+- Research track (e.g., "latent reasoning")
+- Status (accepted/preprint)
+- GitHub stars/downloads if applicable
 
 ## Process
 
-### 1. Fetch Paper Information
+### 1. Extract Paper Metadata
 
-For each paper link provided:
-- Use WebFetch to extract paper metadata (title, authors, venue, year, abstract)
-- If arXiv link: Extract paper ID and fetch metadata
-- Ask user for any additional context:
-  - Key results/metrics to highlight (e.g., "20.5 on AIME25", "1k GitHub stars")
-  - Whether it belongs to a specific research track (e.g., "latent reasoning")
-  - Conference acceptance status (accepted, under review, preprint)
-  - Any notable achievements (GitHub stars, downloads, benchmarks)
+From arXiv/paper link, get:
+- Title, authors, venue, year, abstract
+- Ask user for highlights and categorization
 
-### 2. Determine Paper Category
+### 2. Update CV (files/cv_yizhezhang.tex)
 
-Ask the user or infer from venue:
-- **Preprints**: arXiv papers not yet accepted to conferences
-- **Peer-reviewed**: Accepted papers (ICLR, NeurIPS, ICML, ACL, EMNLP, etc.)
+**Preprints** (arXiv not yet accepted):
+```latex
+\subsection{Selected Preprints}
+\pubitem{Authors. Title. \textcolor{venuecolor}{arXiv (YEAR)} \textit{[highlights]}}
+```
 
-### 3. Update CV (files/cv_yizhezhang.tex)
+**Peer-reviewed** (accepted papers - add at TOP):
+```latex
+\subsection{Peer-reviewed Conferences and Journals (* equally contributed)}
+\setcounter{pubcounter}{0}
+\pubitem{Authors. Title. \textcolor{venuecolor}{VENUE (YEAR)} \textit{[highlights]}}
+```
 
-**For Preprints:**
-- Add using `\pubitem{...}` in "Selected Preprints" section
-- Place after existing CLaRa/LaDi-RL papers but before older arXiv papers
-- Format: `\pubitem{Authors. Title. \textcolor{venuecolor}{arXiv (YEAR)} \textit{[optional highlights]}}`
+**Misc** (workshops, side projects):
+```latex
+\subsection{Workshop, Demo, and Miscellaneous}
+\pubitem{Authors. Title. \textcolor{venuecolor}{VENUE (YEAR)}}
+```
 
-**For Peer-reviewed:**
-- Add using `\pubitem{...}` in "Peer-reviewed Conferences and Journals" section
-- Place at the TOP of the section (most recent papers first)
-- Format: `\pubitem{Authors. Title. \textcolor{venuecolor}{VENUE (YEAR)} \textit{[optional highlights]}}`
-- The `\setcounter{pubcounter}{0}` resets numbering at the start of this section
+**Author formatting:**
+- User's name: `\myname{Yizhe Zhang}` (auto-bold)
+- Equal contribution: `Author1*, \myname{Yizhe Zhang}*`
 
-**Author Name Formatting:**
-- Use `\myname{Yizhe Zhang}` for the user's name (makes it bold)
-- Use `*` after names for equal contribution: `Author1*, \myname{Yizhe Zhang}*`
+**Highlights:**
+- Use `\textcolor{venuecolor}{...}` for blue (NOT red)
+- Metrics in italics: `\textit{[1k GitHub stars]}`
 
-**Highlighting:**
-- For track/theme papers (latent reasoning, diffusion, etc.), coordinate with user on whether to highlight in the Apple experience section
+### 3. Update Publications Page (_publications/)
+
+Create file: `YYYY-MM-DD-Title.md`
+
+**Date format:**
+- Preprints: `2026-12-01` (month=12, day=01 shows in "Preprint" section)
+- Peer-reviewed: `2026-10-01` (other dates show in year sections)
+
+**Template:**
+```yaml
+---
+title: "Paper Title"
+collection: publications
+permalink: /publication/YYYY-MM-DD-Title
+date: YYYY-MM-DD
+venue: 'Venue Name or arXiv'
+paperurl: 'https://arxiv.org/abs/...'
+citation: '<b>Yizhe Zhang</b>, Co-Author1, Co-Author2'
+topics: ['rag-reasoning', 'text-diffusion', 'code-llm-agents']
+description: "One-line summary with key results"
+abstract: "Full abstract..."
+---
+
+[Download paper here](paperurl)
+
+Recommended citation:
+\```bibtex
+@article{...}
+\```
+```
+
+**Topic tags** (for research categories):
+- `code-llm-agents`
+- `long-horizon-planning`
+- `rag-reasoning`
+- `text-diffusion`
+- `coding-ai-scientist`
 
 ### 4. Update Homepage (_pages/about.md)
 
-**For Major Papers (especially first-authored or flagship projects):**
-- Add to News section at the top
-- Format:
-  ```markdown
-  **[MONTH YEAR] Paper Title:** Brief description with key results. [Paper](URL) [GitHub](repo-url)
-  ```
+**Major papers:** Add to News section
+```markdown
+**[MONTH YEAR] Paper Title:** Description with results. [Paper](URL)
+```
 
-**For Paper Collections (e.g., multiple ICLR acceptances):**
-- Update existing news entries if they describe a collection
-- Add individual paper to the list if it fits an existing announcement
+**Project releases:** Add colored box
+```markdown
+<div class="news-box">
+<strong>[MONTH YEAR] Project Released!</strong> <a href="url">GitHub</a><br>
+Description.
+</div>
+```
 
-**For Projects with Code Release:**
-- Consider adding a colored news box (like CLaRa and DiffuCoder boxes)
-- Format:
-  ```markdown
-  <div class="news-box">
-  <strong>[MONTH YEAR] Project Released!</strong> <a href="github-url">GitHub</a> <img src="https://img.shields.io/github/stars/repo?style=social" alt="GitHub stars" style="vertical-align: middle; margin-left: 5px;"><br>
-  Brief description of the project.
-  </div>
-  ```
+### 5. Update Apple Experience (if research track paper)
 
-### 5. Update Apple Experience Section (if applicable)
+```latex
+\hspace{1.5em} $\circ$ \textbf{Track Name:} \textcolor{venuecolor}{\textbf{Paper1}}, \textcolor{venuecolor}{\textbf{Paper2}}
+```
 
-If the paper belongs to a highlighted research track (latent reasoning, diffusion, etc.):
-- Update the Apple experience section in CV
-- Add project name with `\textcolor{venuecolor}{\textbf{ProjectName}}` formatting
-- Keep the list organized by theme
-
-### 6. Compile LaTeX PDF
+### 6. Compile and Push
 
 ```bash
 cd /Users/yizhezhang/Documents/projects/dreasysnail.github.io/files
-pdflatex cv_yizhezhang.tex
-pdflatex cv_yizhezhang.tex  # Run twice for references
-```
+pdflatex cv_yizhezhang.tex && pdflatex cv_yizhezhang.tex
 
-### 7. Commit and Push to GitHub
+cd ..
+git add _pages/about.md _publications/*.md files/cv_yizhezhang.tex files/cv_yizhezhang.pdf
+git commit -m "Add [Paper] to CV and publications
 
-```bash
-cd /Users/yizhezhang/Documents/projects/dreasysnail.github.io
-
-# Stage changes
-git add _pages/about.md files/cv_yizhezhang.tex files/cv_yizhezhang.pdf
-
-# Commit with descriptive message
-git commit -m "Add [Paper Title] to CV and homepage
-
-- Add paper to [preprints/peer-reviewed] section
-- Update homepage with [paper/release] announcement
-- [Any other changes]
+- Add to [section] in CV
+- Create publication page
+- Update homepage with announcement
 
 Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>"
-
-# Push to GitHub
 git push origin master
 ```
 
-## Important Notes
+## Key Files
 
-### Publication Numbering
-- Uses automatic numbering via `\pubitem` command
-- Preprints section continues numbering from 1
-- Peer-reviewed section resets to 1 with `\setcounter{pubcounter}{0}`
-- Never manually number publications
+1. **CV**: `files/cv_yizhezhang.tex` (manual LaTeX)
+2. **Publications**: `_publications/YYYY-MM-DD-Title.md` (Jekyll pages)
+3. **Homepage**: `_pages/about.md` (News section)
+4. **Publications index**: `_pages/publications.md` (auto-generates from _publications/)
 
-### Color Usage
-- Use `\textcolor{venuecolor}{...}` for blue highlights (not red)
-- This matches the venue color scheme in the CV
+## Notes
 
-### Paper Order
-- **Preprints**: Roughly chronological, newest first
-- **Peer-reviewed**: Strictly chronological by conference year, newest first
-- Within same year/venue: first-authored papers typically come first
-
-### GitHub Stars/Metrics
-- Format in italics: `\textit{[1k GitHub stars]}`
-- Use concise numbers: "1k" not "1000", "1.8M+" not "1,800,000+"
-
-### Don't Commit
-- LaTeX auxiliary files (.aux, .log, .out) are gitignored
-- Only commit .tex and .pdf files
-
-## Example Usage
-
-**User:** "Add https://arxiv.org/abs/2602.01705 to my CV and profile. 20.5 on AIME25 and 52.7 on LCB v6 for 8b model. Part of latent reasoning track."
-
-**Assistant steps:**
-1. Fetch paper metadata from arXiv
-2. Confirm it's a preprint (arXiv 2026)
-3. Add to preprints section with metrics
-4. Add to homepage News section
-5. Highlight in Apple experience under latent reasoning
-6. Compile PDF
-7. Commit and push with clear message
-
-## Verification
-
-After completing the process:
-- ✅ Check that paper appears in correct section of CV
-- ✅ Verify PDF compiled without errors
-- ✅ Confirm homepage displays the news/update
-- ✅ Verify git push succeeded
-- ✅ Check formatting matches existing entries
-
-## User Preferences
-
-Based on previous interactions:
-- Highlight research tracks in Apple experience section (e.g., Latent Reasoning: LaDiR, LaDiRL, CLaRa)
-- Use blue color (venuecolor) for highlights, not red
-- Add GitHub stars for projects with significant traction (1k+)
-- Include key benchmark results in paper descriptions
-- Keep ICLR/NeurIPS/ICML accepted papers in peer-reviewed section, not preprints
+- Use `\pubitem` for automatic numbering (never manual `[1]`, `[2]`)
+- Preprints use `month=12, day=01` to show in Preprint section
+- Peer-reviewed use other dates to show in year sections
+- Blue highlights only (`venuecolor`), never red
+- Don't commit `.aux`, `.log`, `.out` files
