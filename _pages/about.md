@@ -137,9 +137,11 @@ I received my <strong>Ph.D.</strong> and <strong>M.S.</strong> degrees from <a h
 
 **[Jan 2026] 6 Papers Accepted to ICLR 2026:** Our work on diffusion-based language models continues to advance, covering masked diffusion for code generation ([DiffuCoder](https://arxiv.org/abs/2506.20639)), latent diffusion for text reasoning ([LaDiR](https://arxiv.org/abs/2510.04573)), few-step diffusion for long text generation ([FS-DFM](https://arxiv.org/abs/2509.20624)), continuous augmentation for discrete diffusion ([CADD](https://arxiv.org/abs/2510.01329)), adaptive reward shaping for efficient reasoning ([LASER](https://arxiv.org/abs/2505.15612)), and Bayesian experimental design with LLMs ([BED-LLM](https://arxiv.org/abs/2508.21184)).
 
+**[Feb 2026] LaDi-RL Released:** Latent reasoning + RL achieving 20.5 on AIME25 and 52.7 on LCB v6 for an 8B model with 2x faster reasoning. Surprisingly, RL for latent reasoning doesn't suffer from entropy/diversity collapse! [Paper](https://arxiv.org/abs/2602.01705)
+
 <div class="news-box">
 <strong>[Dec 2025] CLaRa Released!</strong> <a href="https://github.com/apple/ml-clara">GitHub</a> <img src="https://img.shields.io/github/stars/apple/ml-clara?style=social" alt="GitHub stars" style="vertical-align: middle; margin-left: 5px;"><br>
-CLaRa bridges retrieval and generation with continuous latent reasoning.
+CLaRa bridges retrieval and generation with continuous latent reasoning. 1k+ GitHub stars!
 </div>
 
 <div class="news-box">
