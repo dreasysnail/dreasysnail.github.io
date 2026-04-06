@@ -163,6 +163,12 @@ I received my <strong>Ph.D.</strong> and <strong>M.S.</strong> degrees from <a h
 
 <div class="news-items">
   <div class="news-item">
+    <div class="news-date-badge">Apr 2026</div>
+    <strong>SSD Released</strong>
+    Simple self-distillation boosts Qwen3-30B from 42.4% to 55.3% pass@1 on LiveCodeBench v6—no external verifiers or teachers needed. <a href="https://arxiv.org/abs/2604.01193">Paper</a> <a href="https://github.com/apple/ml-ssd">GitHub</a> <img src="https://img.shields.io/github/stars/apple/ml-ssd?style=social" alt="GitHub stars" style="vertical-align: middle; margin-left: 5px;">
+  </div>
+
+  <div class="news-item">
     <div class="news-date-badge">Feb 2026</div>
     <strong>LaDi-RL Released</strong>
     Latent reasoning + RL achieving 20.5 on AIME25 and 52.7 on LCB v6 for an 8B model with 2x faster reasoning. Surprisingly, RL for latent reasoning doesn't suffer from entropy/diversity collapse! <a href="https://arxiv.org/abs/2602.01705">Paper</a>
