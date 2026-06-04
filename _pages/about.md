@@ -196,8 +196,8 @@ I received my <strong>Ph.D.</strong> and <strong>M.S.</strong> degrees from <a h
 ---
 
 <div class="highlight-box">
-<strong>Seeking Research Interns and FTE</strong><br>
-Please send me an <a href="mailto:yizzhang@apple.com">email</a> with your latest CV if you are working on <strong>text diffusion, continuous token representations, coding LLMs/agent, AI scientist and lookahead training</strong> and are interested in a research internship or FTE position at Apple MLR.
+<strong>Seeking Undergraduate and Master Students</strong><br>
+I am seeking undergraduate and master students to reach out as potential collaborators. Please send me an <a href="mailto:yizhezhang10@gmail.com">email</a> with your latest CV if you are working on <strong>text diffusion, latent reasoning, coding LLMs/agent, AI scientist</strong> and are interested in collaborating.
 </div>
 
 ---
@@ -271,5 +271,5 @@ My recent research focuses on **pushing LLMs to gain more intuition and strong g
 <div class="section-heading">Visitor Map</div>
 
 <div style="text-align: center; margin: 30px 0;">
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=BKvwLE-wb4FnDWME9A_55wQ5wkYK4jb0k6AobZ72d5o"></script>
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=BKvwLE-wb4FnDWME9A_55wQ5wkYK4jb0k6AobZ72d5o&cl=ffffff&w=a"></script>
 </div>
