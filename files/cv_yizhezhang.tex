@@ -20,6 +20,8 @@
 \usepackage{xcolor}
 \newcommand{\myname}[1]{\textbf{#1}}
 \definecolor{venuecolor}{RGB}{0,102,204}
+\definecolor{highlightcolor}{RGB}{0,102,204}
+\newcommand{\hl}[1]{\textcolor{highlightcolor}{\textit{#1}}}
 
 % Counter for publications
 \newcounter{pubcounter}
@@ -50,7 +52,15 @@
 \section{Professional Experience}
 
 \cvitem{}{%
-\textbf{Staff Research Scientist, Apple, Cupertino, CA} \hfill 05/2022 -- Present\\[0.3em]
+\textbf{Research Scientist, Meta (MRS Research), Menlo Park, CA} \hfill 05/2026 -- Present\\[0.3em]
+\hspace{1.5em} \textit{Manager: Yang Song}\\[0.3em]
+\hspace{1.5em} Working on latent reasoning and diffusion models for recommendation systems.
+}
+
+\vspace{0.4em}
+
+\cvitem{}{%
+\textbf{Staff Research Scientist, Apple, Cupertino, CA} \hfill 05/2022 -- 05/2026\\[0.3em]
 \hspace{1.5em} \textit{Manager: Navdeep Jaitly, Ronan Collobert}\\[0.3em]
 \hspace{1.5em} Using code domain as a testbed for planning and reasoning. Led development of:\\[0.2em]
 \hspace{1.5em} $\circ$ \textbf{Latent Reasoning:} \textcolor{venuecolor}{\textbf{LaDiR}}, \textcolor{venuecolor}{\textbf{LaDiRL}}, \textcolor{venuecolor}{\textbf{CLaRa}} -- Continuous latent reasoning for LLMs\\[0.15em]
@@ -137,13 +147,25 @@
 
 \subsection{Selected Preprints}
 
+\pubitem{Guancheng Tu, Xiangjun Fu, Suhao Yu, Yao Tang, Haoqiang Kang, Lianhui Qin, \myname{Yizhe Zhang}, Jiatao Gu. Latent Reasoning with Normalizing Flows. \textcolor{venuecolor}{arXiv (2026)}}
+
+\pubitem{Chunyuan Deng, \myname{Yizhe Zhang}, Rui-Jie Zhu, Yuanyuan Xu, Jiarui Liu, T. S. Eugene Ng, Hanjie Chen. LT2: Linear-Time Looped Transformers. \textcolor{venuecolor}{arXiv (2026)}}
+
+\pubitem{Amin Karimi Monsefi, Dominic Culver, Nikhil Bhendawade, Lokesh Boominathan, Manuel R. Ciosici, \myname{Yizhe Zhang}, Irina Belousova. DACA-GRPO: Denoising-Aware Credit Assignment for Reinforcement Learning in Diffusion Language Models. \textcolor{venuecolor}{arXiv (2026)}}
+
+\pubitem{Yizhu Jiao, Ruixiang Zhang, Richard Bai, Jiawei Han, Ronan Collobert, \myname{Yizhe Zhang}. Primal Generation, Dual Judgment: Self-Training from Test-Time Scaling. \textcolor{venuecolor}{arXiv (2026)}}
+
+\pubitem{Mohammadreza Armandpour, Fatih Ilhan, David Harrison, Ajay Jaiswal, Duc N.M. Hoang, Fartash Faghri, \myname{Yizhe Zhang}, Minsik Cho, Mehrdad Farajtabar. Unmasking On-Policy Distillation: Where It Helps, Where It Hurts, and Why. \textcolor{venuecolor}{arXiv (2026)}}
+
+\pubitem{Ying Shen, Tianrong Chen, Yuan Gao, \myname{Yizhe Zhang}, Yuyang Wang, Miguel Angel Bautista, Shuangfei Zhai, Joshua M. Susskind, Jiatao Gu. STARFlow2: Bridging Language Models and Normalizing Flows for Unified Multimodal Generation. \textcolor{venuecolor}{arXiv (2026)}}
+
+\pubitem{Amin Karimi Monsefi, Dominic Culver, Nikhil Bhendawade, Manuel R. Ciosici, \myname{Yizhe Zhang}, Irina Belousova. Trajectory as the Teacher: Few-Step Discrete Flow Matching via Energy-Navigated Distillation. \textcolor{venuecolor}{arXiv (2026)}}
+
 \pubitem{Ruixiang Zhang, Richard He Bai, Huangjie Zheng, Navdeep Jaitly, Ronan Collobert, \myname{Yizhe Zhang}. Embarrassingly Simple Self-Distillation Improves Code Generation. \textcolor{venuecolor}{arXiv (2026)}}
 
 \pubitem{Zidi Xiu, David Q. Sun, Kevin Cheng, Maitrik Patel, Josh Date, \myname{Yizhe Zhang}, Jiarui Lu, Omar Attia, Raviteja Vemulapalli, Oncel Tuzel, Meng Cao, Samy Bengio. ASTRA-bench: Evaluating Tool-Use Agent Reasoning and Action Planning with Personal User Context. \textcolor{venuecolor}{arXiv (2026)}}
 
-\pubitem{Jie He, Richard He Bai, Sinead Williamson, Jeff Z. Pan, Navdeep Jaitly, \myname{Yizhe Zhang}. CLaRa: Bridging Retrieval and Generation with Continuous Latent Reasoning. \textcolor{venuecolor}{arXiv (2025)} \textit{[1k GitHub stars]}}
-
-\pubitem{\myname{Yizhe Zhang}, Haoqiang Kang, Jie He, Navdeep Jaitly. LaDi-RL: Latent Diffusion with Reinforcement Learning for Test-Time Scaling. \textcolor{venuecolor}{arXiv (2026)} \textit{[20.5 on AIME25 and 52.7 on LCB v6 for 8b model with 2x faster reasoning]}}
+\pubitem{Haoqiang Kang, \myname{Yizhe Zhang}, Nikki Lijing Kuang, Yi-An Ma, Lianhui Qin. LaDi-RL: Latent Diffusion with Reinforcement Learning for Test-Time Scaling. \textcolor{venuecolor}{arXiv (2026)} \hl{[we show latent reasoning suffers less from entropy collapsing in RL while being 2x faster]}}
 
 \pubitem{\myname{Yizhe Zhang}, Richard Bai, Zijin Gu, Ruixiang Zhang, Jiatao Gu, Emmanuel Abbe, Samy Bengio, Navdeep Jaitly. What makes the preferred thinking direction for LLM in Multi-choice Questions? \textcolor{venuecolor}{arXiv (2025)}}
 
@@ -153,13 +175,15 @@
 
 \setcounter{pubcounter}{0}
 
+\pubitem{Jie He, Richard He Bai, Sinead Williamson, Jeff Z. Pan, Navdeep Jaitly, \myname{Yizhe Zhang}. CLaRa: Bridging Retrieval and Generation with Continuous Latent Reasoning. \textcolor{venuecolor}{CoLM (2026)} \hl{[1k GitHub stars]}}
+
 \pubitem{Haoqiang Kang, \myname{Yizhe Zhang}, Nikki Lijing Kuang, Nicklas Majamaki, Navdeep Jaitly, Yi-An Ma, Lianhui Qin. LaDiR: Latent Diffusion Enhances LLMs for Text Reasoning. \textcolor{venuecolor}{ICLR (2026)}}
 
 \pubitem{Huangjie Zheng, Shansan Gong, Ruixiang Zhang, Tianrong Chen, Jiatao Gu, Mingyuan Zhou, Navdeep Jaitly, \myname{Yizhe Zhang}. Continuously Augmented Discrete Diffusion Model for Categorical Generative Modeling. \textcolor{venuecolor}{ICLR (2026)}}
 
 \pubitem{Amin Karimi Monse, Nikhil Bhendawade, Manuel Rafael Ciosici, Dominic Culver, \myname{Yizhe Zhang}, Irina Belousova. FS-DFM: Fast and Accurate Long Text Generation with Few-Step Diffusion Language Models. \textcolor{venuecolor}{ICLR (2026)}}
 
-\pubitem{Shansan Gong, Ruixiang Zhang, Huangjie Zheng, Jiatao Gu, Navdeep Jaitly, Lingpeng Kong, \myname{Yizhe Zhang}. DiffuCoder: Understanding and Improving Masked Diffusion Models for Code Generation. \textcolor{venuecolor}{ICLR (2026)} \textit{[700 GitHub stars in one month, beats Gemini Diffusion and Qwen coder]}}
+\pubitem{Shansan Gong, Ruixiang Zhang, Huangjie Zheng, Jiatao Gu, Navdeep Jaitly, Lingpeng Kong, \myname{Yizhe Zhang}. DiffuCoder: Understanding and Improving Masked Diffusion Models for Code Generation. \textcolor{venuecolor}{ICLR (2026)} \hl{[700 GitHub stars in one month, beats Gemini Diffusion and Qwen coder]}}
 
 \pubitem{Wei Liu, Ruochen Zhou, Yiyun Deng, Yuzhen Huang, Junteng Liu, Yuntian Deng, \myname{Yizhe Zhang}, Junxian He. Learn to Reason Efficiently with Adaptive Length based Reward Shaping. \textcolor{venuecolor}{ICLR (2026)}}
 
@@ -167,7 +191,7 @@
 
 \pubitem{Ruixiang Zhang, Shuangfei Zhai, Jiatao Gu, \myname{Yizhe Zhang}, Huangjie Zheng, Tianrong Chen, Miguel Angel Bautista, Josh Susskind, Navdeep Jaitly. Flexible Language Modeling in Continuous Space with Transformer-based Autoregressive Flows. \textcolor{venuecolor}{NeurIPS (2025)}}
 
-\pubitem{Jiayi Pan, Xingyao Wang, Graham Neubig, Navdeep Jaitly, Heng Ji, Alane Suhr, \myname{Yizhe Zhang}. Training Software Engineering Agents and Verifiers with SWE-Gym. \textcolor{venuecolor}{ICML (2025)} \textit{[1.8M+ dataset downloads per month]}}
+\pubitem{Jiayi Pan, Xingyao Wang, Graham Neubig, Navdeep Jaitly, Heng Ji, Alane Suhr, \myname{Yizhe Zhang}. Training Software Engineering Agents and Verifiers with SWE-Gym. \textcolor{venuecolor}{ICML (2025)} \hl{[1.8M+ dataset downloads per month]}}
 
 \pubitem{Ruixiang Zhang, Shuangfei Zhai, \myname{Yizhe Zhang}, James Thornton, Zijing Ou, Joshua Susskind, Navdeep Jaitly. Target Concrete Score Matching: A Holistic Framework for Discrete Diffusion. \textcolor{venuecolor}{ICML (2025)}}
 
@@ -175,7 +199,7 @@
 
 \pubitem{Shansan Gong, Shivam Agarwal, \myname{Yizhe Zhang}, Jiacheng Ye, Lin Zheng, Mukai Li, Chenxin An, Peilin Zhao, Wei Bi, Jiawei Han, et al. Scaling Diffusion Language Models via Adaptation from Autoregressive Models. \textcolor{venuecolor}{ICLR (2025)}}
 
-\pubitem{Xingyao Wang, Boxuan Li, Yufan Song, Frank F. Xu, Xiangru Tang, Mingchen Zhuge, Jiayi Pan, Yueqi Song, Bowen Li, Jaskirat Singh, et al. All-hands: An Open Platform for AI Software Developers as Generalist Agents. \textcolor{venuecolor}{ICLR (2024)}}
+\pubitem{Xingyao Wang, Boxuan Li, Yufan Song, Frank F. Xu, Xiangru Tang, Mingchen Zhuge, Jiayi Pan, Yueqi Song, Bowen Li, Jaskirat Singh, et al. OpenHands: An Open Platform for AI Software Developers as Generalist Agents. \textcolor{venuecolor}{ICLR (2025)}}
 
 \pubitem{Jiatao Gu, Yuyang Wang, \myname{Yizhe Zhang}, Qihang Zhang, Dinghuai Zhang, Navdeep Jaitly, Josh Susskind, Shuangfei Zhai. DART: Denoising Autoregressive Transformer for Scalable Text-to-Image Generation. \textcolor{venuecolor}{ICLR (2024)}}
 
@@ -255,7 +279,7 @@
 
 \pubitem{Siyang Yuan, Ke Bai, Liqun Chen, \myname{Yizhe Zhang}, Chenyang Tao, Chunyuan Li, Guoyin Wang, Ricardo Henao, Lawrence Carin. Weakly supervised cross-domain alignment with optimal transport Task. \textcolor{venuecolor}{BMVC (2020)}}
 
-\pubitem{\myname{Yizhe Zhang}, Siqi Sun, Michel Galley, Yen-Chun Chen, Chris Brockett, Xiang Gao, Jianfeng Gao, Jingjing Liu, Bill Dolan. DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation. \textcolor{venuecolor}{demo track, ACL (2020)} \textit{[1,912 citations, 2.4k GitHub stars]}}
+\pubitem{\myname{Yizhe Zhang}, Siqi Sun, Michel Galley, Yen-Chun Chen, Chris Brockett, Xiang Gao, Jianfeng Gao, Jingjing Liu, Bill Dolan. DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation. \textcolor{venuecolor}{demo track, ACL (2020)} \hl{[1,912 citations, 2.4k GitHub stars]}}
 
 \pubitem{Yichen Huang*, \myname{Yizhe Zhang}*, Oussama Elachqar, Yu Cheng. INSET: Sentence Infilling with Inter-sentential Generative Pre-training. \textcolor{venuecolor}{ACL (2020)}}
 
@@ -330,6 +354,8 @@
 \subsection{Workshop, Demo, and Miscellaneous}
 
 \pubitem{Mingyuan Zhou, Yi Gu, Huangjie Zheng, Liangchen Song, Guande He, \myname{Yizhe Zhang}, Wenze Hu, Yinfei Yang. Score Distillation of Flow Matching Models. \textcolor{venuecolor}{arXiv (2025)}}
+
+\pubitem{Weidi Luo, Qiming Zhang, Tianyu Lu, Xiaogeng Liu, Bin Hu, Hung-Chun Chiu, Siyuan Ma, \myname{Yizhe Zhang}, Xusheng Xiao, Yinzhi Cao, Zhen Xiang, Chaowei Xiao. Code Agent can be an End-to-end System Hacker: Benchmarking Real-world Threats of Computer-use Agent. \textcolor{venuecolor}{arXiv (2025)}}
 
 \pubitem{Xiaogeng Liu, Zhiyuan Yu, \myname{Yizhe Zhang}, Ning Zhang, Chaowei Xiao. Automatic and Universal Prompt Injection Attacks Against Large Language Models. \textcolor{venuecolor}{arXiv (2024)}}
 

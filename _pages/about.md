@@ -151,10 +151,17 @@ redirect_from:
 
 <div class="bio-section">
 
-I am a <strong>Staff Research Scientist</strong> at <a href="https://machinelearning.apple.com">Apple MLR</a>, primarily working on <strong>Natural Language Processing</strong> and <strong>Machine Learning</strong>. Before joining Apple, I have been at <a href="https://ai.facebook.com/research/NLP/">Meta AI</a> and <a href="https://www.microsoft.com/en-us/research/group/natural-language-processing/">Microsoft Research</a>, working on natural language generation and NLP pre-training.
+I am a <strong>Staff Research Scientist</strong> at <a href="https://machinelearning.apple.com">Apple MLR</a>. I build systems that <strong>close the loop between hypothesis and result</strong>: agents that write and run code, the <strong>environments and verifiers</strong> they train against, and <strong>post-training</strong> methods that let a model improve itself without a teacher. Recent work spans code agents (<a href="https://github.com/SWE-Gym/SWE-Gym">SWE-Gym</a>, <a href="https://arxiv.org/abs/2402.01030">CodeAct</a>), agentic evaluation (<a href="https://github.com/apple/ToolSandbox">ToolSandbox</a>, <a href="https://arxiv.org/abs/2603.01357">ASTRA-bench</a>), self-improvement (<a href="https://github.com/apple/ml-ssd">SSD</a>), latent reasoning (<a href="https://arxiv.org/abs/2510.04573">LaDiR</a>, <a href="https://github.com/apple/ml-clara">CLaRa</a>, <a href="https://arxiv.org/abs/2602.01705">LaDi-RL</a>), and text diffusion (<a href="https://github.com/apple/ml-diffucoder">DiffuCoder</a>, <a href="https://arxiv.org/abs/2510.01329">CADD</a>, <a href="https://arxiv.org/abs/2509.20624">FS-DFM</a>).
+
+Before Apple, I was at <a href="https://ai.facebook.com/research/NLP/">Meta AI</a> and <a href="https://www.microsoft.com/en-us/research/group/natural-language-processing/">Microsoft Research</a>, where I worked on natural language generation and pre-training (including <a href="https://github.com/microsoft/DialoGPT">DialoGPT</a>).
 
 I received my <strong>Ph.D.</strong> and <strong>M.S.</strong> degrees from <a href="https://gradschool.duke.edu">Duke University</a>. Before that, I received my <strong>B.Sc. degree in Physics</strong> from <a href="http://dii.nju.edu.cn/kuangym/?lang=en">Nanjing University</a>, Kuang Yaming Honors School, in 2011.
 
+</div>
+
+<div class="highlight-box">
+<strong>What I want to build</strong><br>
+I want to build AI with genuine <strong>intuition</strong>—models that form a strong first guess, put it to the test, and learn from what comes back, getting better without a teacher. I think the shortest path runs through <strong>code</strong>, where a hunch is cheap to check, and through models that see the answer before they argue for it, rather than narrating every step. <a href="/posts/2026/08/what-i-want-to-build/">Read the full vision →</a>
 </div>
 
 ---
@@ -191,56 +198,60 @@ I received my <strong>Ph.D.</strong> and <strong>M.S.</strong> degrees from <a h
     <strong>DiffuCoder Released</strong>
     Masked diffusion for code generation with Coupled-GRPO, achieving +4.4% on EvalPlus. <a href="https://github.com/apple/ml-diffucoder">GitHub</a> <img src="https://img.shields.io/github/stars/apple/ml-diffucoder?style=social" alt="GitHub stars" style="vertical-align: middle; margin-left: 5px;">
   </div>
-</div>
 
----
-
-<div class="highlight-box">
-<strong>Seeking Undergraduate and Master Students</strong><br>
-I am seeking undergraduate and master students to reach out as potential collaborators. Please send me an <a href="mailto:yizhezhang10@gmail.com">email</a> with your latest CV if you are working on <strong>text diffusion, latent reasoning, coding LLMs/agent, AI scientist</strong> and are interested in collaborating.
+  <div class="news-item">
+    <div class="news-date-badge">May 2025</div>
+    <strong>SWE-Gym at ICML 2025</strong>
+    A training environment for software-engineering agents and verifiers—now <strong>1.8M+ dataset downloads/month</strong> on Hugging Face. Training on ~500 trajectories yields strong SWE-bench gains, and a learned verifier gives log-linear inference-time scaling. <a href="https://arxiv.org/abs/2412.21139">Paper</a> <a href="https://github.com/SWE-Gym/SWE-Gym">GitHub</a> <img src="https://img.shields.io/github/stars/SWE-Gym/SWE-Gym?style=social" alt="GitHub stars" style="vertical-align: middle; margin-left: 5px;">
+  </div>
 </div>
 
 ---
 
 <div class="section-heading">Research Interests</div>
 
-My recent research focuses on **pushing LLMs to gain more intuition and strong generalization**, especially in the **code domain**:
+My research focuses on giving language models stronger **intuition** and generalization, with the code domain as the main proving ground:
 
 <div class="research-topics">
   <a href="/publications/#code-llm-agents" class="research-card-link">
     <div class="research-card">
-      <strong>Code LLM & Agents</strong>
-      Building intelligent coding assistants and autonomous agents that understand and generate code
+      <strong>Code LLMs & Agents</strong>
+      Coding models and autonomous software agents, and the environments and verifiers they learn against
+    </div>
+  </a>
+
+  <a href="/publications/#coding-ai-scientist" class="research-card-link">
+    <div class="research-card">
+      <strong>AI Scientist</strong>
+      Agents that form their own hypotheses, design and run experiments, and learn from the results
     </div>
   </a>
 
   <a href="/publications/#long-horizon-planning" class="research-card-link">
     <div class="research-card">
-      <strong>Long-Horizon Planning</strong>
-      Enabling LLMs to perform complex, multi-step reasoning and planning over extended sequences
+      <strong>Long-Horizon Planning & Reasoning</strong>
+      Multi-step reasoning, planning, and agentic benchmarks that stress long horizons
     </div>
   </a>
 
   <a href="/publications/#rag-reasoning" class="research-card-link">
     <div class="research-card">
-      <strong>RAG & Reasoning with Continuous Tokens</strong>
-      Retrieval-augmented generation and reasoning systems using continuous token representations
+      <strong>RAG & Latent Reasoning</strong>
+      Retrieval-augmented generation and reasoning in a compressed, continuous latent space
     </div>
   </a>
 
   <a href="/publications/#text-diffusion" class="research-card-link">
     <div class="research-card">
       <strong>Text Diffusion Models</strong>
-      Advancing non-autoregressive generation through diffusion-based approaches
+      Non-autoregressive generation through diffusion, for text and code
     </div>
   </a>
+</div>
 
-  <a href="/publications/#coding-ai-scientist" class="research-card-link">
-    <div class="research-card">
-      <strong>Coding-Based AI Scientist</strong>
-      Developing AI systems that can autonomously discover knowledge through code
-    </div>
-  </a>
+<div class="highlight-box">
+<strong>Collaborations</strong><br>
+I am always happy to hear from strong students and researchers interested in <strong>code agents, post-training and self-improvement, latent reasoning, text diffusion, and the AI scientist</strong>. Feel free to reach out by <a href="mailto:yizhezhang10@gmail.com">email</a> with your latest CV.
 </div>
 
 ---
