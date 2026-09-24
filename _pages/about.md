@@ -170,6 +170,12 @@ I want to build AI with genuine <strong>intuition</strong>—models that form a 
 
 <div class="news-items">
   <div class="news-item">
+    <div class="news-date-badge">Sep 2026</div>
+    <strong>4 Papers Accepted to NeurIPS 2026</strong>
+    Our four accepted poster papers are <em>Trajectory as the Teacher: Few-Step Discrete Flow Matching via Energy-Navigated Distillation</em>, <em>DACA-GRPO: Denoising-Aware Credit Assignment for Reinforcement Learning in Diffusion Language Models</em>, <em>STARFlow2: Bridging Language Models and Normalizing Flows for Unified Multimodal Generation</em>, and <em>Primal Generation, Dual Judgment: Self-Training from Test-Time Scaling</em>.
+  </div>
+
+  <div class="news-item">
     <div class="news-date-badge">Apr 2026</div>
     <strong>SSD Released</strong>
     Simple self-distillation boosts Qwen3-30B from 42.4% to 55.3% pass@1 on LiveCodeBench v6—no external verifiers or teachers needed. <a href="https://arxiv.org/abs/2604.01193">Paper</a> <a href="https://github.com/apple/ml-ssd">GitHub</a> <img src="https://img.shields.io/github/stars/apple/ml-ssd?style=social" alt="GitHub stars" style="vertical-align: middle; margin-left: 5px;">
