@@ -57,7 +57,7 @@ redirect_from:
   margin-bottom: 10px;
 }
 
-.news-item strong {
+.news-item > strong {
   font-size: 1.05em;
   color: #2c3e50;
   display: block;
