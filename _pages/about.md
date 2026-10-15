@@ -170,6 +170,12 @@ I want to build AI with genuine <strong>intuition</strong>—models that form a 
 
 <div class="news-items">
   <div class="news-item">
+    <div class="news-date-badge">Oct 2026</div>
+    <strong>Hosting a NeurIPS 2026 Workshop on Diffusion Language Models</strong>
+    We’re co-organizing <a href="https://7amin.github.io/diffulm-neurips2026/"><strong>DiffuLM: Foundations, Efficiency, and Reasoning</strong></a>, the first NeurIPS workshop dedicated to diffusion language models. Join us on December 11 in Sydney for invited talks, paper presentations, and a panel discussion.
+  </div>
+
+  <div class="news-item">
     <div class="news-date-badge">Sep 2026</div>
     <strong>4 Papers Accepted to NeurIPS 2026</strong>
     Our work advances efficient generation and self-improving models, covering energy-guided distillation for few-step discrete flow matching (<a href="https://arxiv.org/abs/2605.07924"><strong>Trajectory as the Teacher</strong></a>), denoising-aware credit assignment for reinforcement learning in diffusion language models (<a href="https://arxiv.org/abs/2605.16342"><strong>DACA-GRPO</strong></a>), unified multimodal generation with language models and normalizing flows (<a href="https://arxiv.org/abs/2605.08029"><strong>STARFlow2</strong></a>), and self-training from test-time scaling (<a href="https://arxiv.org/abs/2605.11299"><strong>Primal Generation, Dual Judgment</strong></a>).
