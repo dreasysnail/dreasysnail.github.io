@@ -171,6 +171,12 @@ I want to build AI with genuine <strong>intuition</strong>—models that form a 
 <div class="news-items">
   <div class="news-item">
     <div class="news-date-badge">Oct 2026</div>
+    <strong>RSI-Inference Released</strong>
+    A long-horizon benchmark for coding agents that improve LLM inference systems: 37 tasks spanning new-model support, inference optimization, and regression fixes in vLLM and SGLang, evaluated on real GPUs. <a href="https://htmlpreview.github.io/?https://github.com/apple-aiml-research/ml-rsi-inference-bench/blob/main/docs/leaderboard.html">Leaderboard</a> <a href="https://github.com/apple-aiml-research/ml-rsi-inference-bench">GitHub</a>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date-badge">Oct 2026</div>
     <strong>Hosting a NeurIPS 2026 Workshop on Diffusion Language Models</strong>
     We’re co-organizing <a href="https://7amin.github.io/diffulm-neurips2026/"><strong>DiffuLM: Foundations, Efficiency, and Reasoning</strong></a>, the first NeurIPS workshop dedicated to diffusion language models. Join us on December 11 in Sydney for invited talks, paper presentations, and a panel discussion.
   </div>
