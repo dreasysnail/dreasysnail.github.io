@@ -171,6 +171,12 @@ I want to build AI with genuine <strong>intuition</strong>—models that form a 
 <div class="news-items">
   <div class="news-item">
     <div class="news-date-badge">Oct 2026</div>
+    <strong>Senior Area Chair for ICML 2027</strong>
+    I will serve as a Senior Area Chair for ICML 2027.
+  </div>
+
+  <div class="news-item">
+    <div class="news-date-badge">Oct 2026</div>
     <strong>RSI-Inference Released</strong>
     A long-horizon benchmark for coding agents that improve LLM inference systems: 37 tasks spanning new-model support, inference optimization, and regression fixes in vLLM and SGLang, evaluated on real GPUs. <a href="https://htmlpreview.github.io/?https://github.com/apple-aiml-research/ml-rsi-inference-bench/blob/main/docs/leaderboard.html">Leaderboard</a> <a href="https://github.com/apple-aiml-research/ml-rsi-inference-bench">GitHub</a>
   </div>
