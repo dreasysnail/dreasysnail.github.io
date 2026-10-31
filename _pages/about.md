@@ -282,12 +282,18 @@ I am always happy to hear from strong students and researchers interested in <st
 
 <div class="section-heading">Academic Service</div>
 
+**Senior Area Chair:**
+
+<div class="service-badges">
+  <span class="badge">ICML 2027</span>
+</div>
+
 **Area Chair / Senior Program Committee:**
 
 <div class="service-badges">
-  <span class="badge">ICLR 2023-2025</span>
-  <span class="badge">ICML 2022-2025</span>
-  <span class="badge">NeurIPS 2020-2025</span>
+  <span class="badge">ICLR 2023-2026</span>
+  <span class="badge">ICML 2022-2026</span>
+  <span class="badge">NeurIPS 2020-2026</span>
   <span class="badge">ACL 2020-2021</span>
   <span class="badge">EMNLP 2022</span>
   <span class="badge">NAACL 2023</span>
