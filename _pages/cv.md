@@ -343,7 +343,6 @@ My research focuses on AutoResearch and AI scientist systems that plan, write an
     <div class="timeline-date">May 2026 – Present</div>
     <div class="timeline-position">Research Scientist</div>
     <div class="timeline-org">Meta, Menlo Park, CA</div>
-    <div class="timeline-manager">Manager: Yang Song</div>
     <div class="timeline-desc">
       Evaluating, training, and optimizing the recursive self-improvement (RSI) loop, with a focus on inference optimization. Also developing latent reasoning methods that improve performance without increasing latency.
     </div>
@@ -353,7 +352,6 @@ My research focuses on AutoResearch and AI scientist systems that plan, write an
     <div class="timeline-date">May 2022 – May 2026</div>
     <div class="timeline-position">Staff Research Scientist</div>
     <div class="timeline-org">Apple MLR, Cupertino, CA</div>
-    <div class="timeline-manager">Managers: Navdeep Jaitly, Ronan Collobert</div>
     <div class="timeline-desc">
       Using the code domain as a testbed for planning and reasoning. Work includes latent reasoning (LaDiR, LaDi-RL, CLaRa), DiffuCoder, and SWE-Gym.<br>
       <strong>RSI:</strong> <a href="https://htmlpreview.github.io/?https://github.com/apple-aiml-research/ml-rsi-inference-bench/blob/main/docs/leaderboard.html">RSI-Inference</a>, a 37-task benchmark for coding agents that improve LLM inference systems through model support, optimization, and regression fixes in vLLM and SGLang.
@@ -364,7 +362,6 @@ My research focuses on AutoResearch and AI scientist systems that plan, write an
     <div class="timeline-date">September 2021 – May 2022</div>
     <div class="timeline-position">Research Scientist</div>
     <div class="timeline-org">Facebook AI (Meta AI), Menlo Park, CA</div>
-    <div class="timeline-manager">Manager: Yashar Mehdad</div>
     <div class="timeline-desc">
       Worked on retrieval-augmented generation (RAG) and summarization systems.
     </div>
@@ -374,7 +371,6 @@ My research focuses on AutoResearch and AI scientist systems that plan, write an
     <div class="timeline-date">February 2018 – September 2021</div>
     <div class="timeline-position">Senior Researcher</div>
     <div class="timeline-org">Microsoft Research, Redmond, WA</div>
-    <div class="timeline-manager">Manager: Bill Dolan</div>
     <div class="timeline-desc">
       Worked on generative dialogue models. Created DialoGPT, an open-sourced pretrained chat model.
     </div>
