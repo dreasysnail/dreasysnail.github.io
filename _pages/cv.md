@@ -295,7 +295,7 @@ redirect_from:
 
 ## Research Interests
 
-AutoResearch, latent reasoning, and AI scientist systems.
+My research focuses on AutoResearch and AI scientist systems that plan, write and run code, and learn from feedback. I combine coding agents, evaluation environments and self-improvement with latent reasoning and inference optimization for efficient, reliable automation.
 
 <div class="research-interests">
   <a href="/publications/#code-llm-agents" class="research-card-link">
@@ -439,6 +439,17 @@ AutoResearch, latent reasoning, and AI scientist systems.
 ---
 
 <div class="cv-section">
+  <div class="section-title">Research Artifacts</div>
+
+  <div class="selected-pubs">
+    {% assign artifacts = site.publications | where: "venue", "Code and benchmark release" | sort: "date" | reverse %}
+    {% for post in artifacts %}
+      {% include archive-single.html %}
+    {% endfor %}
+  </div>
+</div>
+
+<div class="cv-section">
   <div class="section-title">Selected Publications</div>
 
   <div class="selected-pubs">
@@ -447,7 +458,9 @@ AutoResearch, latent reasoning, and AI scientist systems.
       {% assign year = post.date | date: "%Y" %}
       {% if year == "2026" %}
         {% unless post.venue contains "arXiv" %}
+          {% unless post.venue == "Code and benchmark release" %}
           {% include archive-single.html %}
+          {% endunless %}
         {% endunless %}
       {% endif %}
     {% endfor %}
@@ -524,6 +537,7 @@ AutoResearch, latent reasoning, and AI scientist systems.
 
   <ul class="awards-list">
     <li>Stanford Top 2% Scientists (since 2023)</li>
+    <li>Outstanding Area Chair, ICML (2026)</li>
     <li>NeurIPS Top 5% Reviewer Award (2018)</li>
     <li>Department Fellowship, Duke University (2013-2014)</li>
     <li>National Excellent Graduate Scholarship - Top 1% (2012)</li>
