@@ -1,7 +1,7 @@
 \documentclass[11pt, a4paper]{moderncv}
 
 % moderncv options - using 'banking' style for more academic look
-\moderncvstyle{banking}
+\moderncvstyle[nosymbols]{banking}
 \moderncvcolor{blue}
 
 % Margin setup
@@ -28,7 +28,9 @@
 \setcounter{pubcounter}{0}
 \newcommand{\pubitem}[1]{%
   \refstepcounter{pubcounter}%
+  \begin{minipage}[t]{\linewidth}%
   \cvitem{[\thepubcounter]}{#1}%
+  \end{minipage}\par%
 }
 
 % Personal Information
@@ -46,7 +48,7 @@
 
 % --- Research Interest ---
 \section{Research Interest}
-\cvitem{}{My recent research focuses on pushing the LLM to gain more intuition and strong generalization, especially in the code domain, regarding: 1) code LLM/agent; 2) long-horizon planning; 3) RAG/reasoning with continuous tokens; 4) text diffusion models; 5) coding-based AI scientist.}
+\cvitem{}{AutoResearch, latent reasoning, and AI scientist systems.}
 
 % --- Experience ---
 \section{Professional Experience}
@@ -54,7 +56,7 @@
 \cvitem{}{%
 \textbf{Research Scientist, Meta, Menlo Park, CA} \hfill 05/2026 -- Present\\[0.3em]
 \hspace{1.5em} \textit{Manager: Yang Song}\\[0.3em]
-\hspace{1.5em} Working on AI scientist systems, latent reasoning, and diffusion models.
+\hspace{1.5em} Evaluating, training, and optimizing the recursive self-improvement (RSI) loop, with a focus on inference optimization. Also developing latent reasoning methods that improve performance without increasing latency.
 }
 
 \vspace{0.4em}
@@ -63,6 +65,7 @@
 \textbf{Staff Research Scientist, Apple, Cupertino, CA} \hfill 05/2022 -- 05/2026\\[0.3em]
 \hspace{1.5em} \textit{Manager: Navdeep Jaitly, Ronan Collobert}\\[0.3em]
 \hspace{1.5em} Using code domain as a testbed for planning and reasoning. Led development of:\\[0.2em]
+\hspace{1.5em} $\circ$ \textbf{RSI:} \href{https://htmlpreview.github.io/?https://github.com/apple-aiml-research/ml-rsi-inference-bench/blob/main/docs/leaderboard.html}{\textcolor{venuecolor}{\textbf{RSI-Inference}}} -- A 37-task benchmark for coding agents that improve LLM inference systems, covering model support, optimization, and regression fixes in vLLM and SGLang\\[0.15em]
 \hspace{1.5em} $\circ$ \textbf{Latent Reasoning:} \textcolor{venuecolor}{\textbf{LaDiR}}, \textcolor{venuecolor}{\textbf{LaDiRL}}, \textcolor{venuecolor}{\textbf{CLaRa}} -- Continuous latent reasoning for LLMs\\[0.15em]
 \hspace{1.5em} $\circ$ \textbf{DiffuCoder} -- Diffusion-based code generation (700 GitHub stars in one month)\\[0.15em]
 \hspace{1.5em} $\circ$ \textbf{SWE-Gym} -- Code agents training framework with 1.8M+ dataset downloads per month
@@ -110,7 +113,9 @@
 % --- Professional Services ---
 \section{Professional Services}
 
-\cvitem{Area Chair}{NeurIPS (since 2020), ICML (since 2022), ICLR (since 2023), ACL (2020-2021), EMNLP (2022), NAACL (2023), AAAI (2018-2021)}
+\cvitem{Senior Area Chair}{ICML (2027)}
+
+\cvitem{Area Chair}{NeurIPS (2020-2026), ICML (2022-2026), ICLR (2023-2026), ACL (2020-2021), EMNLP (2022), NAACL (2023), AAAI (2018-2021)}
 
 \cvitem{Action Editor}{TMLR (since 2023), ARR (since 2023)}
 
@@ -147,21 +152,29 @@
 
 \subsection{Selected Preprints}
 
-\pubitem{Guancheng Tu, Xiangjun Fu, Suhao Yu, Yao Tang, Haoqiang Kang, Lianhui Qin, \myname{Yizhe Zhang}, Jiatao Gu. Latent Reasoning with Normalizing Flows. \textcolor{venuecolor}{arXiv (2026)}}
+\pubitem{Haoqiang Kang, \myname{Yizhe Zhang}, Nikki Lijing Kuang, Jiatao Gu, Yian Ma, Lianhui Qin. \href{https://arxiv.org/abs/2609.19878}{Uni-LaDiR: Latent Diffusion Unifies Multimodal Reasoning}. \textcolor{venuecolor}{arXiv (2026)}}
 
-\pubitem{Chunyuan Deng, \myname{Yizhe Zhang}, Rui-Jie Zhu, Yuanyuan Xu, Jiarui Liu, T. S. Eugene Ng, Hanjie Chen. LT2: Linear-Time Looped Transformers. \textcolor{venuecolor}{arXiv (2026)}}
+\pubitem{Jiarui Lu, Yuyang Wang, \myname{Yizhe Zhang}, Jiatao Gu, Navdeep Jaitly, Joshua M. Susskind, Miguel \'Angel Bautista. \href{https://arxiv.org/abs/2609.03377}{SimpleDesign: A Joint Model for Protein Sequence and Structure Codesign}. \textcolor{venuecolor}{arXiv (2026)}}
 
-\pubitem{Mohammadreza Armandpour, Fatih Ilhan, David Harrison, Ajay Jaiswal, Duc N.M. Hoang, Fartash Faghri, \myname{Yizhe Zhang}, Minsik Cho, Mehrdad Farajtabar. Unmasking On-Policy Distillation: Where It Helps, Where It Hurts, and Why. \textcolor{venuecolor}{arXiv (2026)}}
+\pubitem{Guancheng Tu, Xiangjun Fu, Suhao Yu, Yao Tang, Haoqiang Kang, Lianhui Qin, \myname{Yizhe Zhang}, Jiatao Gu. \href{https://arxiv.org/abs/2606.06447}{Latent Reasoning with Normalizing Flows}. \textcolor{venuecolor}{arXiv (2026)}}
+
+\pubitem{Chunyuan Deng, \myname{Yizhe Zhang}, Rui-Jie Zhu, Yuanyuan Xu, Jiarui Liu, T. S. Eugene Ng, Hanjie Chen. \href{https://arxiv.org/abs/2605.20670}{LT2: Linear-Time Looped Transformers}. \textcolor{venuecolor}{arXiv (2026)}}
+
+\pubitem{Mohammadreza Armandpour, Fatih Ilhan, David Harrison, Ajay Jaiswal, Duc N.M. Hoang, Fartash Faghri, \myname{Yizhe Zhang}, Minsik Cho, Mehrdad Farajtabar. \href{https://arxiv.org/abs/2605.10889}{Unmasking On-Policy Distillation: Where It Helps, Where It Hurts, and Why}. \textcolor{venuecolor}{arXiv (2026)}}
 
 \pubitem{Ruixiang Zhang, Richard He Bai, Huangjie Zheng, Navdeep Jaitly, Ronan Collobert, \myname{Yizhe Zhang}. Embarrassingly Simple Self-Distillation Improves Code Generation. \textcolor{venuecolor}{arXiv (2026)}}
 
 \pubitem{Zidi Xiu, David Q. Sun, Kevin Cheng, Maitrik Patel, Josh Date, \myname{Yizhe Zhang}, Jiarui Lu, Omar Attia, Raviteja Vemulapalli, Oncel Tuzel, Meng Cao, Samy Bengio. ASTRA-bench: Evaluating Tool-Use Agent Reasoning and Action Planning with Personal User Context. \textcolor{venuecolor}{arXiv (2026)}}
 
-\pubitem{Haoqiang Kang, \myname{Yizhe Zhang}, Nikki Lijing Kuang, Yi-An Ma, Lianhui Qin. LaDi-RL: Latent Diffusion with Reinforcement Learning for Test-Time Scaling. \textcolor{venuecolor}{arXiv (2026)} \hl{[we show latent reasoning suffers less from entropy collapsing in RL while being 2x faster]}}
+\pubitem{Haoqiang Kang, \myname{Yizhe Zhang}, Nikki Lijing Kuang, Yi-An Ma, Lianhui Qin. \href{https://arxiv.org/abs/2602.01705}{LaDi-RL: Latent Diffusion Reasoning Prevents Entropy Collapse in Reinforcement Learning}. \textcolor{venuecolor}{arXiv (2026)} \hl{[we show latent reasoning suffers less from entropy collapsing in RL while being 2x faster]}}
 
 \pubitem{\myname{Yizhe Zhang}, Richard Bai, Zijin Gu, Ruixiang Zhang, Jiatao Gu, Emmanuel Abbe, Samy Bengio, Navdeep Jaitly. What makes the preferred thinking direction for LLM in Multi-choice Questions? \textcolor{venuecolor}{arXiv (2025)}}
 
 \vspace{0.5em}
+
+\subsection{Research Artifacts}
+
+\cvitem{}{Junteng Liu, Richard He Bai, Huangjie Zheng, \myname{Yizhe Zhang}, Ruixiang Zhang. \href{https://htmlpreview.github.io/?https://github.com/apple-aiml-research/ml-rsi-inference-bench/blob/main/docs/leaderboard.html}{RSI-Inference: A Long-Horizon Benchmark for Self-Improving Inference Systems}. \textcolor{venuecolor}{Code and benchmark release (2026)}. \href{https://github.com/apple-aiml-research/ml-rsi-inference-bench}{GitHub}.}
 
 \subsection{Peer-reviewed Conferences and Journals (* equally contributed)}
 

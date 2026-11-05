@@ -295,6 +295,8 @@ redirect_from:
 
 ## Research Interests
 
+AutoResearch, latent reasoning, and AI scientist systems.
+
 <div class="research-interests">
   <a href="/publications/#code-llm-agents" class="research-card-link">
     <div class="research-card">
@@ -338,12 +340,23 @@ redirect_from:
   <div class="section-title">Professional Experience</div>
 
   <div class="timeline-item">
-    <div class="timeline-date">May 2022 – Present</div>
+    <div class="timeline-date">May 2026 – Present</div>
+    <div class="timeline-position">Research Scientist</div>
+    <div class="timeline-org">Meta, Menlo Park, CA</div>
+    <div class="timeline-manager">Manager: Yang Song</div>
+    <div class="timeline-desc">
+      Evaluating, training, and optimizing the recursive self-improvement (RSI) loop, with a focus on inference optimization. Also developing latent reasoning methods that improve performance without increasing latency.
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-date">May 2022 – May 2026</div>
     <div class="timeline-position">Staff Research Scientist</div>
     <div class="timeline-org">Apple MLR, Cupertino, CA</div>
-    <div class="timeline-manager">Manager: Navdeep Jaitly</div>
+    <div class="timeline-manager">Managers: Navdeep Jaitly, Ronan Collobert</div>
     <div class="timeline-desc">
-      Using code domain as a testbed for planning and reasoning. Recent work includes DiffuCoder (diffusion-based code generation) and SWE-Agent (autonomous code agents).
+      Using the code domain as a testbed for planning and reasoning. Work includes latent reasoning (LaDiR, LaDi-RL, CLaRa), DiffuCoder, and SWE-Gym.<br>
+      <strong>RSI:</strong> <a href="https://htmlpreview.github.io/?https://github.com/apple-aiml-research/ml-rsi-inference-bench/blob/main/docs/leaderboard.html">RSI-Inference</a>, a 37-task benchmark for coding agents that improve LLM inference systems through model support, optimization, and regression fixes in vLLM and SGLang.
     </div>
   </div>
 
@@ -426,65 +439,29 @@ redirect_from:
 ---
 
 <div class="cv-section">
+  <div class="section-title">Selected Publications</div>
+
+  <div class="selected-pubs">
+    {% assign recent_pubs = site.publications | sort: "date" | reverse %}
+    {% for post in recent_pubs %}
+      {% assign year = post.date | date: "%Y" %}
+      {% if year == "2026" %}
+        {% unless post.venue contains "arXiv" %}
+          {% include archive-single.html %}
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<div class="cv-section">
   <div class="section-title">Selected Preprints</div>
 
   <div class="selected-pubs">
-    <div class="pub-item">
-      <strong>Jie He, Richard He Bai, Sinead Williamson, Jeff Z. Pan, Navdeep Jaitly, Yizhe Zhang.</strong>
-      CLaRa: Bridging Retrieval and Generation with Continuous Latent Reasoning.
-      <span class="pub-venue">arXiv (2025)</span>
-      [<a href="https://arxiv.org/abs/2511.18659">paper</a>]
-    </div>
-
-    <div class="pub-item">
-      <strong>Haoqiang Kang, Yizhe Zhang, Nikki Lijing Kuang, Nicklas Majamaki, Navdeep Jaitly, Yi-An Ma, Lianhui Qin.</strong>
-      LaDiR: Latent Diffusion Enhances LLMs for Text Reasoning.
-      <span class="pub-venue">arXiv (2025)</span>
-      [<a href="https://arxiv.org/abs/2510.04573">paper</a>]
-    </div>
-
-    <div class="pub-item">
-      <strong>Huangjie Zheng, Shansan Gong, Ruixiang Zhang, Tianrong Chen, Jiatao Gu, Mingyuan Zhou, Navdeep Jaitly, Yizhe Zhang.</strong>
-      Continuously Augmented Discrete Diffusion Model for Categorical Generative Modeling.
-      <span class="pub-venue">arXiv (2025)</span>
-    </div>
-
-    <div class="pub-item">
-      <strong>Amin Karimi Monse, Nikhil Bhendawade, Manuel Rafael Ciosici, Dominic Culver, Yizhe Zhang, Irina Belousova.</strong>
-      FS-DFM: Fast and Accurate Long Text Generation with Few-Step Diffusion Language Models.
-      <span class="pub-venue">arXiv (2025)</span>
-    </div>
-
-    <div class="pub-item">
-      <strong>Shansan Gong, Ruixiang Zhang, Huangjie Zheng, Jiatao Gu, Navdeep Jaitly, Lingpeng Kong, Yizhe Zhang.</strong>
-      DiffuCoder: Understanding and Improving Masked Diffusion Models for Code Generation.
-      <span class="pub-venue">arXiv (2025)</span>
-      [<a href="https://arxiv.org/abs/2506.20639">paper</a>]
-    </div>
-
-    <div class="pub-item">
-      <strong>Wei Liu, Ruochen Zhou, Yiyun Deng, Yuzhen Huang, Junteng Liu, Yuntian Deng, Yizhe Zhang, Junxian He.</strong>
-      Learn to Reason Efficiently with Adaptive Length based Reward Shaping.
-      <span class="pub-venue">arXiv (2025)</span>
-    </div>
-
-    <div class="pub-item">
-      <strong>Deepro Choudhury, Sinead Williamson, Adam Goliński, Ning Miao, Freddie Bickford Smith, Michael Kirchhof, Yizhe Zhang, Tom Rainforth.</strong>
-      BED-LLM: Intelligent Information Gathering with LLMs and Bayesian Experimental Design.
-      <span class="pub-venue">arXiv (2025)</span>
-    </div>
-
-    <div class="pub-item">
-      <strong>Yizhe Zhang, Richard Bai, Zijin Gu, Ruixiang Zhang, Jiatao Gu, Emmanuel Abbe, Samy Bengio, Navdeep Jaitly.</strong>
-      What makes the preferred thinking direction for LLM in Multi-choice Questions?
-      <span class="pub-venue">arXiv (2025)</span>
-    </div>
-
-    <div class="pub-item">
-      <strong>Xiaogeng Liu, Zhiyuan Yu, Yizhe Zhang, Ning Zhang, Chaowei Xiao.</strong>
-      Automatic and Universal Prompt Injection Attacks Against Large Language Models.
-      <span class="pub-venue">arXiv (2024)</span>
-    </div>
+    {% assign preprints = site.publications | where: "venue", "arXiv" | sort: "date" | reverse %}
+    {% for post in preprints limit:9 %}
+      {% include archive-single.html %}
+    {% endfor %}
   </div>
 </div>
 
@@ -495,11 +472,18 @@ redirect_from:
 
   <div class="service-grid">
     <div class="service-card">
+      <h4>Senior Area Chair</h4>
+      <ul>
+        <li>ICML (2027)</li>
+      </ul>
+    </div>
+
+    <div class="service-card">
       <h4>Area Chair / Senior PC</h4>
       <ul>
-        <li>NeurIPS (since 2020)</li>
-        <li>ICML (since 2022)</li>
-        <li>ICLR (since 2023)</li>
+        <li>NeurIPS (2020-2026)</li>
+        <li>ICML (2022-2026)</li>
+        <li>ICLR (2023-2026)</li>
         <li>ACL (2020-2021)</li>
         <li>EMNLP (2022)</li>
         <li>NAACL (2023)</li>

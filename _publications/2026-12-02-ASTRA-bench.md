@@ -2,7 +2,7 @@
 title: "ASTRA-bench: Evaluating Tool-Use Agent Reasoning and Action Planning with Personal User Context"
 collection: publications
 permalink: /publication/2026-12-02-ASTRA-bench
-date: 2026-12-02
+date: 2026-03-01
 venue: 'arXiv'
 paperurl: 'https://arxiv.org/abs/2603.01357'
 citation: 'Zidi Xiu, David Q. Sun, Kevin Cheng, Maitrik Patel, Josh Date, <b>Yizhe Zhang</b>, Jiarui Lu, Omar Attia, Raviteja Vemulapalli, Oncel Tuzel, Meng Cao, Samy Bengio'
