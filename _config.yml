@@ -19,6 +19,8 @@ breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
+# MapMyVisitors: set the d= value generated for https://dreasysnail.github.io/.
+mapmyvisitors_id          :
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -80,7 +82,7 @@ analytics:
 # Site Author
 author:
   name             : "Yizhe Zhang"
-  avatar           : "profile3.jpg"
+  avatar           : "profile-scholar-2026-11-27.jpg"
   bio              : "AI Research Scientist"
   location         : "Redmond, WA"
   employer         :

@@ -145,6 +145,19 @@ redirect_from:
   color: #495057;
   border: 1px solid #dee2e6;
 }
+
+.visitor-tracker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.visitor-map {
+  width: 100%;
+  max-width: 650px;
+}
 </style>
 
 ## About Me
@@ -311,6 +324,13 @@ I am always happy to hear from strong students and researchers interested in <st
 
 <div class="section-heading">Visitor Map</div>
 
-<div style="text-align: center; margin: 30px 0;">
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=BKvwLE-wb4FnDWME9A_55wQ5wkYK4jb0k6AobZ72d5o&cl=ffffff&w=a"></script>
+<div class="visitor-tracker">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=dreasysnail.github.io&amp;left_color=%232c3e50&amp;right_color=%233498db&amp;left_text=Page%20Views" alt="Page views" style="border-radius: 6px;">
+  <div class="visitor-map">
+    {% if site.mapmyvisitors_id %}
+    <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?d={{ site.mapmyvisitors_id | url_encode }}&amp;cl=ffffff&amp;w=a"></script>
+    {% else %}
+    <script type="text/javascript" id="clustrmaps" src="https://clustrmaps.com/map_v2.js?d=BKvwLE-wb4FnDWME9A_55wQ5wkYK4jb0k6AobZ72d5o&amp;cl=ffffff&amp;w=a"></script>
+    {% endif %}
+  </div>
 </div>
